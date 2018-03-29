@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: */imprint/
+
+sitemap: https://sofiamoraes.com/sitemap.xml

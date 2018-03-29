@@ -1,0 +1,26 @@
+@import '../../../config/variables';
+
+.footer {
+	//margin: 5rem 0;
+	//padding: 1rem $distance;
+	//text-align: center;
+	background-color: #ffdf59;
+		
+}
+.footercenter {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	font-size: 26px;
+	text-align: center;
+}
+.link {
+	text-decoration: underline;
+	:hover {
+		text-decoration: underline;
+	}
+}
+.container {
+	padding-top: 7rem;
+    padding-bottom: 3rem;
+}
