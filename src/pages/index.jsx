@@ -1,18 +1,18 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import config from '../../config/SiteConfig';
-import ProjectListing from '../components/ProjectListing/ProjectListing';
+//import ProjectListing from '../components/ProjectListing/ProjectListing';
 import Footer from '../components/Footer/Footer';
 
 const Index = props => {
-  const projectEdges = props.data.allMarkdownRemark.edges;
+  { /* } const projectEdges = props.data.allMarkdownRemark.edges; {*/}
   return (
     <div className="container index-container">
       <Helmet>
         <title>{config.siteTitle}</title>
       </Helmet>
       <div>
-        <ProjectListing projectEdges={projectEdges} />
+       { /* } <ProjectListing projectEdges={projectEdges} /> {*/}
       </div>
       <Footer />
     </div>
@@ -21,7 +21,7 @@ const Index = props => {
 
 export default Index;
 
-/* eslint no-undef: "off" */
+/* eslint no-undef: "off"
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -46,3 +46,4 @@ export const pageQuery = graphql`
     }
   }
 `;
+ */
