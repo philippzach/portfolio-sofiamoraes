@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import styles from './Navbar.module.scss';
 
 const Navbar = () => (
-  <nav>
+  <nav className={styles.navnotphone}>
     <Link to="/about" className="slide-left-right">
       About
     </Link>

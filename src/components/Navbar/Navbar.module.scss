@@ -39,4 +39,9 @@ path.starright {
 path.line {
 		fill: white;
 	}
+.navnotphone {
+		@include nav-desktop {
+		display: none;
+	}
+}
 
