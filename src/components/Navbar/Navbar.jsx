@@ -7,9 +7,9 @@ const Navbar = () => (
     <Link to="/about" className="slide-left-right">
       About
     </Link>
-    <Link to="/blog" className="slide-left-right">
+   {/*}<Link to="/blog" className="slide-left-right">
       Blog
-    </Link>
+    </Link>{*/}
     <div className={styles.hiremecontainer}>
       <Link to="/hireme">
         <div className={styles.text}>

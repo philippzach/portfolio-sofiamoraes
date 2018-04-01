@@ -8,9 +8,9 @@ import config from '../../config/SiteConfig';
 const Contact = () => (
   <div className="container contact-container">
     <Helmet title={`Contact | ${config.siteTitle}`} />
-    <Header>Contact</Header>
+    <Header>Hire Me</Header>
     <Container text>
-      <h1>Contact me!</h1>
+      <h1>Hire me!</h1>
       <p>
         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
         texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
