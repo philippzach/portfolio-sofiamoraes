@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './cat.scss';
-import mojs from 'mo-js';
+
+if (typeof window !== `undefined`) {
+  const mojs = require('mo-js');
+}
 
 class Cat extends React.Component {
   constructor(props) {
@@ -76,32 +79,43 @@ class Cat extends React.Component {
       easing: mojs.easing.out,
     });
     const clap = document.getElementById('clap');
-    clap.style.transform = 'scale(1, 1)'
+    clap.style.transform = 'scale(1, 1)';
     this._animationTimeline = new mojs.Timeline();
     this._animationTimeline.add([countAnimation, countTotalAnimation, scaleButton, circleBurst, triangleBurst]);
   }
   _generateRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
-  _generateRandomMiau = () => {
-    return this[Math.floor((Math.random()*this.length))];
-  }
+  _generateRandomMiau = () => this[Math.floor((Math.random()*this.length))];
 
   _randommiau() {
-    const miaus = ['Mew', 'Miau', '喵', 'Meow', 'мяу', 'Meu', 'ニャー', 'Myau', 'Mew', 'Miau', 'Miao', 'Mjau', 'Miav', 'Meo' ];
-    const rmia = miaus[Math.floor(Math.random()*miaus.length)];
-    return rmia
+    const miaus = [
+      'Mew',
+      'Miau',
+      '喵',
+      'Meow',
+      'мяу',
+      'Meu',
+      'ニャー',
+      'Myau',
+      'Mew',
+      'Miau',
+      'Miao',
+      'Mjau',
+      'Miav',
+      'Meo',
+    ];
+    const rmia = miaus[Math.floor(Math.random() * miaus.length)];
+    return rmia;
   }
 
   _handleClick() {
     this._animationTimeline.replay();
-    this.setState((prevState, nextState) => {
-      return {
+    this.setState((prevState, nextState) => ({
         count: this._randommiau(),// Math.min(prevState.count + 1, 200),
         countTotal: prevState.countTotal + 1,
         isClicked: true
-      }
-    });
+      }));
   }
 
   render() {
@@ -124,20 +138,20 @@ function getAppContent(count, countTotal, isClicked, handleClick) {
                 </g>
               </g>
               <path
-                class="st0"
+                className="st0"
                 d="M59.761,75.504c1.419,8.417-4.881,16.41-10.417,16.41c-5.537,0-13.572-7.977-11.396-16.231
 		c1.537-5.828,4.542-13.217,7.505-15.643c0.843-0.689,1.876-0.764,2.876-0.354c2.564,1.049,4.312,2.759,5.897,4.648
 		C56.778,67.376,58.883,70.306,59.761,75.504z"
               />
               <path
-                class="st0"
+                className="st0"
                 d="M156.448,81.576c-0.603,8.698-9.398,13.551-14.967,11.74c-5.569-1.812-7.896-10.004-5.197-18.299
 		c2.698-8.294,10.638-14.738,16.206-12.928C158.059,63.901,157.062,72.729,156.448,81.576z"
               />
               <g>
                 <g>
                   <path
-                    class="st2"
+                    className="st2"
                     d="M65.793,125.643c7.528,0,7.528-11.674,0-11.674S58.265,125.643,65.793,125.643L65.793,125.643z"
                   />
                 </g>
@@ -145,17 +159,17 @@ function getAppContent(count, countTotal, isClicked, handleClick) {
               <g>
                 <g>
                   <path
-                    class="st2"
+                    className="st2"
                     d="M131.979,122.277c7.527,0,7.527-11.674,0-11.674S124.451,122.277,131.979,122.277L131.979,122.277z"
                   />
                 </g>
               </g>
-              <circle class="st2" cx="65.793" cy="119.787" r="5.926" />
-              <circle class="st2" cx="131.978" cy="116.44" r="5.927" />
-              <circle class="st2" cx="142.771" cy="120.027" r="1.499" />
-              <path class="st6" d="M0.293,91.283" />
+              <circle className="st2" cx="65.793" cy="119.787" r="5.926" />
+              <circle className="st2" cx="131.978" cy="116.44" r="5.927" />
+              <circle className="st2" cx="142.771" cy="120.027" r="1.499" />
+              <path className="st6" d="M0.293,91.283" />
               <path
-                class="st7"
+                className="st7"
                 d="M173.238,112.72c-4.184-6.128-7.916-11.779-10.236-19.026c-3.822-11.931-2.746-19.154-4.321-28.769
 		c-2.218-13.519-15.675-4.18-22.806,2.229c-2.08,1.867-12.009,10.566-13.657,10.912c-3.483,0.73-3.866-1.875-7.933-5.185
 		c-7.625-6.211-16.854-7.021-26.967-3.613c-7.128,2.402-11.095,3.862-15.567,6.104c-3.493,1.752-4.4,1.599-5.211,1.253
@@ -170,31 +184,31 @@ function getAppContent(count, countTotal, isClicked, handleClick) {
 		C172.859,145.885,154.527,158.98,148.106,164.759z"
               />
               <path
-                class="st1"
+                className="st1"
                 d="M125.928,137.227c-0.057-0.237-0.193-0.169-0.249,0c-2.712,8.372-10.06,12.535-17.824,5.364
 		c-2.897,2.181-9.88,11.459-15.701,10.04c-0.892-0.218-2.279-0.429-3.578-2.807c-0.873-1.598-1.584-6.128-2.016-7.091
 		c-0.155-0.346-0.48-0.272-0.48-0.077c0.939,4.734,0.202,8.946,4.91,11.124c9.576,4.431,12.977-4.665,17.177-8.409
 		C115.99,152.886,127.361,146.633,125.928,137.227z"
               />
-              <polygon class="st2" points="0.296,124.995 0.221,124.876 31.989,129.45 51.16,138.665 25.03,133.173 	" />
+              <polygon className="st2" points="0.296,124.995 0.221,124.876 31.989,129.45 51.16,138.665 25.03,133.173 	" />
               <path
-                class="st2"
+                className="st2"
                 d="M49.683,149.951l-14.227-2.659c-9.958,2.91-27.794,2.366-27.794,2.366l27.936,2.693L49.683,149.951z"
               />
               <path
-                class="st2"
+                className="st2"
                 d="M179.486,126.05c-10.271,5.036-21.77,5.791-21.77,5.791c5.496,2.178,23.631-1.091,23.631-1.091l9.929-5.627
 		L179.486,126.05z"
               />
               <path
-                class="st2"
+                className="st2"
                 d="M184.75,109.069c-12.115,8.496-26.808,11.886-26.808,11.886c7.612,1.564,30.304-6.388,30.304-6.388
 		l11.531-9.167L184.75,109.069z"
               />
 
               <ellipse
                 transform="matrix(0.9997 0.0264 -0.0264 0.9997 3.6368 -1.1543)"
-                class="st5"
+                className="st5"
                 cx="45.509"
                 cy="137.074"
                 rx="18.577"
@@ -203,7 +217,7 @@ function getAppContent(count, countTotal, isClicked, handleClick) {
 
               <ellipse
                 transform="matrix(0.9948 -0.1016 0.1016 0.9948 -12.5703 16.736)"
-                class="st5"
+                className="st5"
                 cx="157.943"
                 cy="131.719"
                 rx="18.577"
@@ -211,7 +225,7 @@ function getAppContent(count, countTotal, isClicked, handleClick) {
               />
               <g className="st3">
                 <path
-                  class="st4"
+                  className="st4"
                   d="M124.455,36.541c0.031-0.884,0.759-0.758,1.387-0.764c3.416-0.034,6.588-0.89,9.47-2.76
 			c3.927-2.55,6.083-6.315,7.31-10.698c0.463-1.653,0.782-3.348,1.18-5.021c0.033-0.136,0.17-0.247,0.496-0.699
 			c0.082,1.052,0.158,1.756,0.188,2.462c0.331,8.081,5.531,13.622,12.193,15.578c1.771,0.521,3.631,0.735,5.439,1.14
@@ -220,17 +234,17 @@ function getAppContent(count, countTotal, isClicked, handleClick) {
 			c-0.559-7.377-5.312-12.924-11.985-14.917C129.086,37.42,126.785,37.055,124.455,36.541z"
                 />
                 <path
-                  class="st4"
+                  className="st4"
                   d="M191.479,83.926c0.001,2.584-2.006,4.583-4.61,4.593c-2.475,0.01-4.562-2.062-4.573-4.54
 			c-0.012-2.588,1.974-4.521,4.652-4.527C189.549,79.444,191.477,81.349,191.479,83.926z"
                 />
                 <path
-                  class="st4"
+                  className="st4"
                   d="M67.274,23.03c-0.033,2.587-2.08,4.558-4.691,4.521c-2.342-0.033-4.561-2.343-4.511-4.696
 			c0.05-2.359,2.296-4.51,4.68-4.479C65.393,18.409,67.309,20.383,67.274,23.03z"
                 />
                 <path
-                  class="st4"
+                  className="st4"
                   d="M73.452,55.482c0.015-0.423,0.363-0.362,0.665-0.365c1.634-0.016,3.153-0.426,4.533-1.32
 			c1.88-1.221,2.913-3.024,3.5-5.122c0.222-0.792,0.374-1.603,0.564-2.403c0.017-0.065,0.082-0.119,0.237-0.336
 			c0.04,0.504,0.076,0.842,0.09,1.18c0.159,3.868,2.648,6.521,5.838,7.457c0.848,0.25,1.738,0.353,2.604,0.546
@@ -239,7 +253,7 @@ function getAppContent(count, countTotal, isClicked, handleClick) {
 			c-0.268-3.532-2.543-6.188-5.738-7.142C75.669,55.904,74.567,55.73,73.452,55.482z"
                 />
               </g>
-              <circle class="st2" cx="56.197" cy="125.713" r="1.499" />
+              <circle className="st2" cx="56.197" cy="125.713" r="1.499" />
             </g>
           </svg>
         </span>

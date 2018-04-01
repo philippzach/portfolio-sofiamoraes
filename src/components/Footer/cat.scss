@@ -1,3 +1,5 @@
+@import '../../../config/variables';
+
 //    SASS definitions
   
 $btn-dimension: 80px;
@@ -11,6 +13,14 @@ $secondary-color: black;
     display: inline;
     margin-right: 75px;
     float: right;
+    @include nav-desktop {
+      position: absolute;
+      right: -10%;
+    }
+    @include nav-phone {
+      position: absolute;
+      right: 2%;
+    }
 }
 
 //    BUTTON styles
