@@ -45,6 +45,9 @@
 @mixin nav-phone {
     @media (min-width: 650px) { @content; }
 }
+@mixin small-phone {
+    @media (max-width: 320px) { @content; }
+}
 
 // --------------
 // Configuration

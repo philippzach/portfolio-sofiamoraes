@@ -21,6 +21,9 @@ $secondary-color: black;
       position: absolute;
       right: 2%;
     }
+    @include small-phone{
+      display: none;
+    }
 }
 
 //    BUTTON styles
