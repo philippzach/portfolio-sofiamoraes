@@ -262,7 +262,7 @@ function getAppContent(count, countTotal, isClicked, handleClick) {
         </span>
 
         <span id="clap--count-total" className="clap--count-total">
-          +{countTotal}
+          { /* }+{countTotal}{ */ }
         </span>
       </button>
     </div>
