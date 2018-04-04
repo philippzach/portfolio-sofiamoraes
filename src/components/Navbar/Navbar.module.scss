@@ -1,6 +1,6 @@
 @import '../../../config/variables';
 
-nav {
+nav.navnotphone {
 	float: right;
 	display: inline-flex;
 	margin-top: 6px;
@@ -39,7 +39,7 @@ path.starright {
 path.line {
 		fill: white;
 	}
-.navnotphone {
+nav.navnotphone {
 		@include nav-desktop {
 		display: none;
 	}

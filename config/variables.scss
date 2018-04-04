@@ -33,11 +33,13 @@
 @mixin for-big-desktop-up {
     @media (min-width: 1500px) { @content; }
 }
-
-// Custom Media Queries
-
 @mixin for-mobile-landscape {
     @media (max-width: 900px) and (orientation: landscape) { @content; }
+}
+
+// Custom Media Queries
+@mixin nav-tachyons {
+    @media (min-width: 480px) { @content; }
 }
 @mixin nav-desktop {
     @media (max-width: 650px) { @content; }
