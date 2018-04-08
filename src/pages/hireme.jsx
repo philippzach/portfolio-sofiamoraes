@@ -7,7 +7,7 @@ import config from '../../config/SiteConfig';
 
 const Contact = () => (
   <div className="container contact-container">
-    <Helmet title={`Contact | ${config.siteTitle}`} />
+    <Helmet title={`Hire me for a few hours | ${config.siteTitle}`} />
     <Header>Hire Me</Header>
     <Container text>
       <h1>Hire me!</h1>

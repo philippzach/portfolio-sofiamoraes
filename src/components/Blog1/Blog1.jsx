@@ -6,7 +6,7 @@ import img1 from './pics/0003.jpg';
 const Blog1 = () => (
     <div className={styles.background}>
   <div className={styles.container}>
-    <main className="cf w-100">
+    <main className="cf">
       <div className="fl w-100 w-two-thirds-ns pa2">
         <div className="aspect-ratio aspect-ratio--1x1">
           <img src={img1} className="db bg-center cover aspect-ratio--object" />
@@ -23,6 +23,8 @@ const Blog1 = () => (
           <img src={img1} className="db bg-center cover aspect-ratio--object" />
         </div>
       </div>
+      </main>
+      <main className="cf">
       <div className="fl w-100 w-third-ns pa2">
         <div className="aspect-ratio aspect-ratio--1x1">
           <img src={img1} className="db bg-center cover aspect-ratio--object" />

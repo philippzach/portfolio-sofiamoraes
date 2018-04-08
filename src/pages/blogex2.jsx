@@ -2,12 +2,12 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
-import Blog1 from '../components/Blog1/Blog1';
+import Blog2 from '../components/Blog2/Blog2';
 
 const Blog = () => (
   <div>
     <Helmet title={`Random Blog Title | ${config.siteTitle}`} />
-    <Blog1 />
+    <Blog2 />
     <Footer />
   </div>
 );
