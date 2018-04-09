@@ -14,6 +14,7 @@
 @mixin for-phone-only {
     @media (max-width: 599px) { @content; }
 }
+
 @mixin for-tablet-portrait-up {
     @media (min-width: 600px) { @content; }
 }
@@ -32,11 +33,25 @@
 @mixin for-big-desktop-up {
     @media (min-width: 1500px) { @content; }
 }
-
-// Custom Media Queries
-
 @mixin for-mobile-landscape {
     @media (max-width: 900px) and (orientation: landscape) { @content; }
+}
+
+// Custom Media Queries
+@mixin nav-tachyons {
+    @media (min-width: 480px) { @content; }
+}
+@mixin nav-desktop {
+    @media (max-width: 650px) { @content; }
+}
+@mixin nav-phone {
+    @media (min-width: 650px) { @content; }
+}
+@mixin small-phone {
+    @media (max-width: 320px) { @content; }
+}
+@mixin flexbox-cards {
+    @media (min-width: 785px) { @content; }
 }
 
 // --------------

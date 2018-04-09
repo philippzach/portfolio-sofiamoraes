@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Link from 'gatsby-link';
 import Logo from '../Logo/Logo';
 import Navbar from '../Navbar/Navbar';
 import { push as Menu } from 'react-burger-menu';
 import config from '../../../config/SiteConfig';
 import styles from './Navigation.module.scss';
+import star from './star.svg';
 
 export default class Navigation extends Component {
   constructor(props) {
@@ -26,29 +28,30 @@ export default class Navigation extends Component {
       <header className={styles.header}>
         <Logo />
         <Navbar />
-        {/* }<div>
-          <div>
-            <Menu right isOpen={this.state.menuOpen} onStateChange={this.handleStateChange} width="25%">
+        <div className={styles.navphone}>
+          <Menu
+            right
+            isOpen={this.state.menuOpen}
+            onStateChange={this.handleStateChange}
+            width="100%"
+            customBurgerIcon={<img src={star} />}
+            customCrossIcon={false}
+          >
+            <ul className={styles.list}>
               <Link to="/about" activeClassName="active" onClick={() => this.closeMenu()}>
-                About
+                <li className={styles.item}>About</li>
               </Link>
+
               <Link to="/blog" activeClassName="active" onClick={() => this.closeMenu()}>
-                Blog
+                <li className={styles.item}>Blog</li>
               </Link>
-              <div style={{ backgroundColor: 'yellow' }}>
-                <a href="https://www.instagram.com/lekoarts.de" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin />
-                </a>
-                <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer">
-                  <FaVimeo />
-                </a>
-                <a href="https://dribbble.com/LeKoArts" target="_blank" rel="noopener noreferrer">
-                  <FaPinterest />
-                </a>
-              </div>
-            </Menu>
-          </div>
-        </div>{ */}
+
+              <Link to="/hireme" activeClassName="active" onClick={() => this.closeMenu()}>
+                <li className={styles.item}>Hire Me</li>
+              </Link>
+            </ul>
+          </Menu>
+        </div>
       </header>
     );
   }

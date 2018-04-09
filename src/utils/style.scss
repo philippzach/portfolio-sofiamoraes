@@ -4,25 +4,18 @@
 @import '../../config/variables';
 
 
-.container {
-	padding-top: 6.25rem;
-}
-
-.vibrant-canvas {
-	display: none;
+h2 {
+	line-height: 2rem;
 }
 
 .bm-burger-button {
-	height: 30px;
+	height: 35px;
 	position: fixed;
-	right: 1rem;
-	top: .8rem;
+	right: 2rem;
+	top: 2rem;
 	width: 36px;
 }
 
-.bm-burger-bars {
-	background: #373a47;
-}
 
 .bm-cross-button {
 	height: 24px;
@@ -41,12 +34,9 @@
 	font-size: 1.15em;
 	padding: 2.5em 1.5em 0;
 }
-
-.bm-morph-shape {
-	fill: #373a47;
-}
-
 .bm-item-list {
-	color: #b8b7ad;
-	padding: .8em;
+	float: none;
+	text-align: center;
+    display: flex;
+    justify-content: center;
 }

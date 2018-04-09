@@ -5,146 +5,22 @@
 	position: relative;
 	padding: 30px 0;
 }
-/*
-._38GougRNE8 {
-    margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    max-width: 1320px;
-}
 
-@media (min-width: 1080px){
-._38GougRNE8 {
-    padding-left: 70px;
-    padding-right: 70px;
-    max-width: 1430px;
-}
-}
-@media (min-width: 720px){
-._38GougRNE8 {
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 1390px;
-}
-}
-@media (min-width: 480px){
-._38GougRNE8 {
-    max-width: 1350px;
-}
-}
-.logo {
-	margin-bottom: 1em;
-}
-.social {
-    display: inline-block;
-    margin-left: -134px;
-}*/
-
-/*
-.hiremecontainer:hover path.line {
-	animation: spark 0.5s infinite alternate;
-	animation-timing-function: ease-in;
-  }
-  
-  @keyframes spark {
-	to {
-	  fill: black;
-	}
-  }
-*/
-
-/*
-
-.wrapper {
-	align-items: center;
-	display: flex;
-
-	
-}
-
-.navigation, .name, .socialMedia {
-	display: flex;
-	flex: 1;
-	justify-content: center;
-}
-
-.navigation > span {
-	margin-right: auto;
-}
-
-.socialMedia > span {
-	margin-left: auto;
-}
-
-.navigation {
-	a:not(:first-child) {
-		margin-left: 1rem;
+.navphone {
+	@include nav-phone {
+		display: none;
 	}
 }
-
-.name {
-	h3 {
-		font-size: 23px !important;
-		margin-bottom: 0 !important;
-	}
-
-	a {
-		&:hover, &:focus {
-			color: $body-color;
-			text-decoration: none;
-		}
-	}
+.list {
+	list-style-type: none;
+	width: 200px;
+    margin: 0;
 }
-
-.socialMedia {
-	a {
-		font-size: 1.5rem;
-	}
-
-	a:not(:first-child) {
-		margin-left: 1rem;
-	}
+.item {
+		background-color: white;
+		border-radius: 1px;
+		box-shadow: black;
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		padding: 10px;
+		margin-bottom: 54px;
 }
-
-.mobileNav {
-	background-color: $background-color;
-	display: none;
-	height: 50px;
-	position: fixed;
-	width: 100%;
-	z-index: 100;
-	@include for-phone-only {
-		display: block;
-	}
-
-	a {
-		color: #fff;
-		font-size: 200%;
-		margin-bottom: 2rem;
-
-		&:hover {
-			color: #fff;
-		}
-	}
-}
-
-.mobileNavName {
-	left: 1rem;
-	position: fixed;
-	top: 1rem;
-
-	h3 {
-		font-size: 23px !important;
-		margin-bottom: 0 !important;
-	}
-}
-
-.mobileNavSocialMedia {
-	font-size: 1.5rem;
-	margin-top: 6rem;
-
-	a:not(:first-child) {
-		margin-left: 1.5rem;
-	}
-}
-*/
