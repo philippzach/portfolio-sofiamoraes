@@ -50,6 +50,9 @@
 @mixin small-phone {
     @media (max-width: 320px) { @content; }
 }
+@mixin flexbox-cards {
+    @media (min-width: 785px) { @content; }
+}
 
 // --------------
 // Configuration
