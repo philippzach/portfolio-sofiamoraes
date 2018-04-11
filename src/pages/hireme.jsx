@@ -10,7 +10,7 @@ const Contact = () => (
   <div className="container contact-container">
     <Helmet title={`Hire me for a few hours | ${config.siteTitle}`} />
     <Container>
-    <Hireme/>
+        <Hireme />
     </Container>
     <Footer />
   </div>

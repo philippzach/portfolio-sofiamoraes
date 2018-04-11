@@ -10,6 +10,7 @@ module.exports = {
     siteUrl: config.siteUrl + pathPrefix,
   },
   plugins: [
+    'gatsby-plugin-stripe-checkout',
     'gatsby-plugin-react-next',
     'gatsby-plugin-react-helmet',
     {
