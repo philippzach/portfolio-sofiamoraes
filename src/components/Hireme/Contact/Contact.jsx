@@ -2,13 +2,13 @@ import React from 'react';
 
 const Contact = () => (
   <div className="mw7 bl ml5-ns" style={{ marginBottom: '5rem' }}>
-    <p className="pl4 pt5">
+    <h3 className="pl4 pt5" style={{ lineHeight: '2rem' }}>
       Do you have a bigger project in mind? Like Web or App Design, Branding or Advertisement? Email me about your
       project >{' '}
-      <a href="mailto:hi@sofiamoraes.com" class="b">
+      <a href="mailto:hi@sofiamoraes.com" className="b">
         hi@sofiamoraes.com
       </a>
-    </p>
+    </h3>
   </div>
 );
 

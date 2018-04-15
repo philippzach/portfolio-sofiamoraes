@@ -8,6 +8,7 @@
     "type": "git"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "classnames": "^2.2.5",
     "date-fns": "^1.29.0",
     "gatsby": "^1.9.216",
@@ -43,6 +44,7 @@
     "react-reveal": "^0.7.3",
     "react-stripe-checkout": "^2.6.3",
     "react-stripe-elements": "^1.6.0",
+    "react-transition-group": "^2.3.1",
     "react-typist": "^2.0.4",
     "typography-theme-moraga": "^0.15.10"
   },

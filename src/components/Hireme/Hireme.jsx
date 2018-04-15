@@ -3,7 +3,6 @@ import Header from './Header/Header';
 import Cards from './Cards/Cards';
 import Explanation from './Explanation/Explanation';
 import Contact from './Contact/Contact';
-import Checkout from './Checkout/Checkout';
 
 const Hireme = () => (
   <div>
@@ -11,7 +10,6 @@ const Hireme = () => (
     <Cards />
     <Explanation />
     <Contact />
-    <Checkout/>
   </div>
 )
 

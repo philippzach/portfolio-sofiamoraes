@@ -12,8 +12,8 @@ const SingleCard = props => (
       />
     </div>
     <div className="tc">
-      <h1 className="f3 mb2">Mimi W.</h1>
-      <h2 className="f5 fw4 gray mt0">CCO (Chief Cat Officer)</h2>
+      <h1 className="f3 mb2">{props.heading}</h1>
+      <h2 className="f5 fw4 gray mt0">{props.heading2}</h2>
     </div>
   </article>
 );

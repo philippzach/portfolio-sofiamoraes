@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Header from '../components/Header/Header';
 import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';

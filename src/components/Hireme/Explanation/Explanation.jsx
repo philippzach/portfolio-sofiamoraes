@@ -52,8 +52,11 @@ const Explanation = () => (
               </div>
               <div className={styles.textcontainer2}>
                 <p>
-                  As soon as you make a purchase, I will get in touch with you together we figure out all your needs for
-                  the final design
+                  As soon as you make a purchase, you can fill out this{' '}
+                  <a href="" className={styles.link}>
+                    Creative Brief
+                  </a>{' '}
+                  or wait until I get in touch with you (max 24h)
                 </p>
               </div>
             </div>

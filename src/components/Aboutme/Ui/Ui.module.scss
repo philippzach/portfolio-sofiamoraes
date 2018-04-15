@@ -1,16 +1,16 @@
-@import '../../../config/variables';
+@import '../../../../config/variables';
 
 img.profile {
     box-shadow: 4px 4px 68px -16px rgba(0,0,0,0.75);
     @include nav-phone{
     max-height: 350px; 
+    text-align: center;
+    float: right;
+    margin-right: 50px;
     }
 }
 .abouttext {
-    @include nav-phone{
-        float: right; 
-        }
-    padding-left: 25px;    
+    padding-left: 25px;
 }
 .padding {
     margin-top: 10%;
