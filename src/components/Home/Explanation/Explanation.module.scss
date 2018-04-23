@@ -1,0 +1,30 @@
+@import '../../../../config/variables';
+
+.fix {
+    @include fix {
+        margin-top: 5rem;
+    }
+    @include small-phone {
+        margin-top: 15rem;
+    }
+    @include medium-phone {
+        margin-top: 4rem;
+    }
+}
+.container {
+    margin-bottom: 15rem;
+    margin-top: 15rem;
+    display: flex;
+
+}
+.line::before {
+    background-color: #edecea;
+    content: "";
+    position: absolute;
+    left: 50%;
+    height: 180px;
+    width: 1px;
+    -webkit-transform: translateY(-120%);
+    -ms-transform: translateY(-120%);
+    transform: translateY(-120%);
+}

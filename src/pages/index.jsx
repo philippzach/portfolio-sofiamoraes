@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import config from '../../config/SiteConfig';
 //import ProjectListing from '../components/ProjectListing/ProjectListing';
 import Footer from '../components/Footer/Footer';
+import Home from '../components/Home/Home';
 
 const Index = props => {
   { /* } const projectEdges = props.data.allMarkdownRemark.edges; {*/}
@@ -11,6 +12,7 @@ const Index = props => {
       <Helmet>
         <title>{config.siteTitle}</title>
       </Helmet>
+      <Home/>
       <div>
        { /* } <ProjectListing projectEdges={projectEdges} /> {*/}
       </div>

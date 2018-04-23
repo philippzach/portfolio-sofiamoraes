@@ -1,7 +1,6 @@
 import React from 'react';
-import tachyons from 'tachyons';
 import styles from './Photography.module.scss';
-import Placeholder from './placeholdersquare.jpg';
+import Placeholder from './productphotographysofiamoraes.jpeg';
 
 const Photography = () => (
   <div className={styles.padding}>
