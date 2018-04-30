@@ -2,8 +2,14 @@ import React from 'react';
 import styles from './Post.module.scss';
 
 const Post = props => (
-  <div>
-    <h3>{props.title}</h3><a>{props.date}</a>
+  <div className={styles.blogpost}>
+    <div className={styles.date}>{props.date}</div>
+    <h3 className={styles.title}>{props.title}</h3>
+    <div>
+      <div>
+        <span>read more</span>
+      </div>
+    </div>
   </div>
 );
 
