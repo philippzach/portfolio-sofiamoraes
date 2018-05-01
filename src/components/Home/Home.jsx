@@ -3,6 +3,7 @@ import Random from './Random/Random';
 import Explanation from './Explanation/Explanation';
 import Container from '../Container/Container';
 import Blog from '../Home/Blog/Blog';
+import Projects from './Projects/Projects';
 
 const Home = () => (
   <div>
@@ -10,6 +11,7 @@ const Home = () => (
       <Random />
     </Container>
     <Explanation />
+    <Projects />
     <Blog />
   </div>
 );

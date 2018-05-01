@@ -6,6 +6,7 @@ import styles from './Explanation.module.scss';
 const Explanation = () => (
   <div>
     <Container>
+    <div className={styles.container}>
       <div className="measure-wide center">
         <h2 className={styles.fix} style={{ textAlign: 'center' }}>
           We are a full service digital agency, busy designing and building beautiful digital products, brands and
@@ -15,13 +16,6 @@ const Explanation = () => (
           <Link to="/hireme">hire me</Link>
         </button>
       </div>
-      <div className={styles.container}>
-        <div className="center measure-wide">
-          <h2 className={styles.line} style={{ marginBottom: 0 }}>
-            <b>Check out my work!</b>
-          </h2>
-          <h3>Selected Projects</h3>
-        </div>
       </div>
     </Container>
   </div>

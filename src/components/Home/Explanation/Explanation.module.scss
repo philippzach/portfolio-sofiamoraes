@@ -12,19 +12,13 @@
     }
 }
 .container {
-    margin-bottom: 15rem;
-    margin-top: 15rem;
+    /*@media screen and (max-width: 900px) and (min-width: 500px) {
+        margin-top: 12rem;
+    }*/
+    @media screen and (max-height: 575px) {
+        margin-top: 10rem;
+    }
+   // margin-top: 0.5rem;
     display: flex;
 
-}
-.line::before {
-    background-color: #edecea;
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 180px;
-    width: 1px;
-    -webkit-transform: translateY(-120%);
-    -ms-transform: translateY(-120%);
-    transform: translateY(-120%);
 }
