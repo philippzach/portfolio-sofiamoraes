@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Random.module.scss';
 import Placeholder from './placeholdersquare.png';
+import Button from '../../Buttons/Button2/Button2';
+
 
 const Random = () => (
   <div className={styles.master}>
@@ -11,7 +13,7 @@ const Random = () => (
             <b>Hi, I'm Sofia </b> - a graphic and web designer based in Hawaii, I enjoy creating beautiful solutions.
           </h2>
           <div className={styles.buttondiv}>
-            <button>more projects</button>
+            <Button name="More projects" link="#projects" />
           </div>
         </div>
         <div className={styles.container2}>

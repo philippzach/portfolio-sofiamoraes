@@ -63,3 +63,8 @@
     flex: 1;
     padding-right: 28px;
 }
+.mobilelink {
+    @media (max-width: 720px) {
+        margin-right: -2rem;
+    }
+}

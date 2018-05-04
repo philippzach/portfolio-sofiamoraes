@@ -24,11 +24,11 @@ const Projects = () => (
     <div className={styles.boxes}>
     <ul className={[styles.layout, styles.layoutleft].join(' ')} >
       <li className={styles.listitem}> <Link to="/home"> <Projectitem name="Planet" atr="Branding, Graphics, Marketing" img={Planet}/> </Link></li>
+      <li className={styles.listitem}> <Link to="/home"> <Projectitem name="Reuters" atr="UI/UX, Graphics" img={Reuters}/> </Link> </li>
       <li className={styles.listitem}> <Link to="/home"> <Projectitem name="Dropbox" atr="Photography, Graphics" img={Dropbox}/> </Link> </li>
-      <li className={styles.listitem}> <Link to="/home"> <Projectitem name="Acai" atr="Photography, Graphics" img={Acai}/> </Link> </li>
     </ul>
     <ul className={styles.layout}>
-      <li className={styles.listitem}> <Link to="/home"> <Projectitem name="Reuters" atr="UI/UX, Graphics" img={Reuters}/> </Link> </li>
+        <li className={styles.listitem}> <Link to="/home"> <Projectitem name="Acai" atr="Photography, Graphics" img={Acai}/> </Link> </li>  
       <li className={styles.listitem}> <Link to="/home"> <Projectitem name="Tennis" atr="Web Design" img={Tennis}/> </Link> </li>
       <li className={styles.listitem}> <Link to="/home"> <Projectitem name="El Acai" atr="Photography, Graphics" img={Elacai} /> </Link> </li>
     </ul>
