@@ -24,11 +24,11 @@
 @mixin for-tablet-landscape-down {
     @media (max-width: 899px) { @content; }
 }
-@mixin for-tablet-landscape-up {
-    @media (min-width: 900px) { @content; }
+@mixin smrandom {
+    @media (max-width: 1024px) { @content; }
 }
-@mixin for-desktop-up {
-    @media (min-width: 1200px) { @content; }
+@mixin random {
+    @media (min-width: 1024px) { @content; }
 }
 @mixin for-big-desktop-up {
     @media (min-width: 1500px) { @content; }
@@ -48,10 +48,28 @@
     @media (min-width: 650px) { @content; }
 }
 @mixin small-phone {
-    @media (max-width: 320px) { @content; }
+    @media (max-width: 320px)  { @content; }
+}
+@mixin medium-phone {
+    @media (min-width: 375px) { @content; }
 }
 @mixin flexbox-cards {
     @media (min-width: 785px) { @content; }
+}
+@mixin small {
+    @media (min-width: 480px) { @content; }
+}
+@mixin medium {
+    @media (min-width: 720px) { @content; }
+}
+@mixin large {
+    @media (min-width: 1080px) { @content; }
+}
+@mixin phone-only {
+    @media (max-width: 499px) { @content; }
+}
+@mixin fix {
+    @media (min-width: 499px) and (max-width: 899px) { @content; }
 }
 
 // --------------
@@ -64,15 +82,6 @@ $yellow: #ffdf59;
 $lightgrey: #edecea;
 $darkgrey: #333;
 $black: #000;
-
-// Configure your grid here
-// You don't need to change it!
-
-$content-width: 100vw;
-$gutter: 0;
-$columns: 3;
-
-$row-size: calc( (#{$content-width} - #{$gutter} * (#{$columns} - 1)) / #{$columns} );
 
 // Configure the max-width of your containers here
 // Try to keep it in sync with maxWidth of `gatsby-remark-images`

@@ -1,0 +1,75 @@
+.container {
+    margin: 0 auto;
+    max-width: 100rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    @media (min-width: 720px){
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+    }
+}
+.floatright {
+    @media (max-width: 650px) {
+        width: 100%;
+    margin: auto;
+    }
+    // @media (min-width: )
+    width: 50%;
+    margin: auto 50%;
+}
+.purplebg {
+    background-color: rgb(37,7,42);
+}
+.acailogo {
+    padding: 2rem;
+    @media (min-width: 1050px) {
+        padding: 5rem;
+    }
+}
+
+section.content {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    @media (max-width: 650px) {
+            flex-direction: column;
+    }
+}
+section.content > div.left {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+section.content > div.right {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 250%;
+}
+.paragraph {
+    font-weight: 200;
+    @media (min-width: 651px){
+        margin-top: 17%;
+    }
+}
+.acailogorules {
+    width: 50rem;
+    padding: 15%;
+}
+
+/*
+.flexboxcontainer {
+    display: flex;
+}
+.flexboxcontainer > div {
+	width: 50%;
+	padding: 10px;
+}
+
+.flexboxcontainer > div:first-child {
+	margin-right: 20px;
+}
+*/

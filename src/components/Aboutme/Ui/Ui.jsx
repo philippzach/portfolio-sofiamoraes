@@ -1,7 +1,6 @@
 import React from 'react';
-import tachyons from 'tachyons';
-import styles from './ui.module.scss';
-import Placeholder from './placeholdersquare.jpg';
+import styles from './Ui.module.scss';
+import Placeholder from './uxuidesignsofiamoraes.jpeg';
 
 const Ui = () => (
   <div className={styles.padding}>

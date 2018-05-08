@@ -1,7 +1,6 @@
 import React from 'react';
-import tachyons from 'tachyons';
 import styles from './Branding.module.scss';
-import Placeholder from './placeholdersquare.jpg';
+import Placeholder from './brandingsofiamoraes.jpeg';
 
 const Branding = () => (
   <div className={styles.padding}>

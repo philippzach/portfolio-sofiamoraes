@@ -15,7 +15,7 @@ export default class Cards extends React.Component {
   }
 
   componentDidMount() {
-    stripeHandler = StripeCheckout.configure({
+   stripeHandler = StripeCheckout.configure({
       key: 'pk_test_llM7Ft0pbTy2y8BROIJ8RuWy',
       locale: 'auto',
     });
