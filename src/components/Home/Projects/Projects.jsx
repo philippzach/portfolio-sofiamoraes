@@ -24,8 +24,8 @@ const Projects = () => (
       <div className={styles.boxes}>
         <ul className={[styles.layout, styles.layoutleft].join(' ')}>
           <li className={styles.listitem}>
-            <Link to="/home">
-              <Fade bottom delay={3000}>
+            <Link to="/project1">
+              <Fade bottom delay={2000}>
                 <Projectitem name="Planet" atr="Branding, Graphics, Marketing" img={Planet} />
               </Fade>
             </Link>
@@ -33,15 +33,15 @@ const Projects = () => (
 
           <li className={styles.listitem}>
             
-            <Link to="/home">
-              <Fade bottom delay={4000}>
+            <Link to="/project1">
+              <Fade bottom delay={2000}>
                 
                 <Projectitem name="Reuters" atr="UI/UX, Graphics" img={Reuters} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
-            <Link to="/home">
+            <Link to="/project1">
               <Fade bottom delay={1000}>
                 <Projectitem name="Dropbox" atr="Photography, Graphics" img={Dropbox} />
               </Fade>
@@ -51,7 +51,7 @@ const Projects = () => (
 
         <ul className={styles.layout}>
           <li className={styles.listitem}>
-            <Link to="/home">
+            <Link to="/project1">
               <Fade bottom>
                 <Projectitem name="Acai" atr="Photography, Graphics" img={Acai} />
               </Fade>
@@ -59,14 +59,14 @@ const Projects = () => (
           </li>
 
           <li className={styles.listitem}>
-            <Link to="/home">
+            <Link to="/project1">
               <Fade bottom>
                 <Projectitem name="Tennis" atr="Web Design" img={Tennis} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
-            <Link to="/home">
+            <Link to="/project1">
               <Fade bottom>
                 <Projectitem name="El Acai" atr="Photography, Graphics" img={Elacai} />
               </Fade>
