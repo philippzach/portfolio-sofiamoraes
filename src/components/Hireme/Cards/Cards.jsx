@@ -58,7 +58,7 @@ export default class Cards extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <div onClick={e => this.openStripeCheckout(6000, e)}>
+        <div onClick={e => this.openStripeCheckout(8000, e)}>
           <SingleCard image={Blitz} heading="2h Time" heading2="Random text to display" amount="6000" />
         </div>
         <div onClick={e => this.openStripeCheckout(15000, e)}>

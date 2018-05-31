@@ -4,11 +4,12 @@ import Projectitem from './Projectitem.jsx/Projectitem';
 import Link from 'gatsby-link';
 import Fade from 'react-reveal/Fade';
 import Acai from './pics/acai3.png';
-import Planet from './pics/planet.jpg';
-import Elacai from './pics/acai4.jpg';
-import Reuters from './pics/reuters.jpg';
-import Tennis from './pics/tennis.jpg';
-import Dropbox from './pics/dropbox.jpg';
+import laBalm from '../../../../Design Elements/Home/labalm.jpg';
+import Quantum from '../../../../Design Elements/Home/quantum.jpg';
+import Media from '../../../../Design Elements/Home/turquoisemedia.jpg';
+import CampBay from '../../../../Design Elements/Home/campbaylodge.jpg';
+import Nomad from '../../../../Design Elements/Home/nomadyoga.jpg';
+import Mandalita from '../../../../Design Elements/Home/mandalita.svg';
 
 const Projects = () => (
   <div>
@@ -24,26 +25,24 @@ const Projects = () => (
       <div className={styles.boxes}>
         <ul className={[styles.layout, styles.layoutleft].join(' ')}>
           <li className={styles.listitem}>
-            <Link to="/project1">
+            <Link to="/labalm">
               <Fade bottom delay={2000}>
-                <Projectitem name="Planet" atr="Branding, Graphics, Marketing" img={Planet} />
+                <Projectitem name="LA Balm" atr="Branding, Graphics, Marketing" img={laBalm} />
               </Fade>
             </Link>
           </li>
 
           <li className={styles.listitem}>
-            
-            <Link to="/project1">
+            <Link to="/turqouisemedia">
               <Fade bottom delay={2000}>
-                
-                <Projectitem name="Reuters" atr="UI/UX, Graphics" img={Reuters} />
+                <Projectitem name="Turquoise Media" atr="UI/UX, Graphics" img={Media} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
-            <Link to="/project1">
+            <Link to="/nomadyoga">
               <Fade bottom delay={1000}>
-                <Projectitem name="Dropbox" atr="Photography, Graphics" img={Dropbox} />
+                <Projectitem name="Nomad Yoga" atr="UI/UX, Graphics, Mobile Design" img={Nomad} />
               </Fade>
             </Link>
           </li>
@@ -51,24 +50,31 @@ const Projects = () => (
 
         <ul className={styles.layout}>
           <li className={styles.listitem}>
-            <Link to="/project1">
+            <Link to="/elacaieurope">
               <Fade bottom>
-                <Projectitem name="Acai" atr="Photography, Graphics" img={Acai} />
+                <Projectitem name="El Acai Europe" atr="Photography, Graphics, Web Design" img={Acai} />
               </Fade>
             </Link>
           </li>
 
           <li className={styles.listitem}>
-            <Link to="/project1">
+            <Link to="/campbaylodge">
               <Fade bottom>
-                <Projectitem name="Tennis" atr="Web Design" img={Tennis} />
+                <Projectitem name="Camp Bay Lodge" atr="Web Design" img={CampBay} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
-            <Link to="/project1">
+            <Link to="/quantumpeakcoaching">
               <Fade bottom>
-                <Projectitem name="El Acai" atr="Photography, Graphics" img={Elacai} />
+                <Projectitem name="Quantum Peak Coaching" atr="Branding, Graphics" img={Quantum} />
+              </Fade>
+            </Link>
+          </li>
+          <li className={styles.listitem}>
+            <Link to="/mandalita">
+              <Fade bottom>
+                <Projectitem name="Mandalita" atr="Branding, Graphics" img={Mandalita} />
               </Fade>
             </Link>
           </li>
