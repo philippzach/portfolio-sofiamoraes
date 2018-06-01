@@ -60,14 +60,14 @@ const Projects = () => (
           <li className={styles.listitem}>
             <Link to="/campbaylodge">
               <Fade bottom>
-                <Projectitem name="Camp Bay Lodge" atr="Web Design" img={CampBay} />
+                <Projectitem name="Camp Bay Lodge" atr="Identity, Graphics" img={CampBay} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
             <Link to="/quantumpeakcoaching">
               <Fade bottom>
-                <Projectitem name="Quantum Peak Coaching" atr="Branding, Graphics" img={Quantum} />
+                <Projectitem name="Quantum Peak Coaching" atr="Branding, Logo, Graphics" img={Quantum} />
               </Fade>
             </Link>
           </li>
