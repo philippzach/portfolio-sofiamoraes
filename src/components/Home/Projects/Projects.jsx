@@ -33,7 +33,7 @@ const Projects = () => (
           </li>
 
           <li className={styles.listitem}>
-            <Link to="/turqouisemedia">
+            <Link to="/turquoisemedia">
               <Fade bottom delay={2000}>
                 <Projectitem name="Turquoise Media" atr="UI/UX, Graphics" img={Media} />
               </Fade>
