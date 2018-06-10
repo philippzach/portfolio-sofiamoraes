@@ -14,6 +14,7 @@ import Mobile from '../../../Design Elements/Project1-Acai/iPhone-mockup-sm.png'
 import Facebook from '../../../Design Elements/Project1-Acai/Facebook-page-elacaieuorpe.png';
 import Insta from '../../../Design Elements/Project1-Acai/Instagram-Elacaieurope-mockup.png';
 import Random from '../ProjectsComponents/BrowseProjects';
+import Next from '../ProjectsComponents/NextProject';
 
 const Project1 = () => (
   <div>
@@ -252,6 +253,7 @@ const Project1 = () => (
     <ul className={styles.layout}><li className={styles.listitem}><img className={styles.shadow} src={Insta}/></li></ul>
     </div>
     </div>
+    <Next link='/labalm' />
     <Random />
   </div>
 );

@@ -14,6 +14,7 @@ import Ring3 from '../../../Design Elements/Project6-Nomad/c3-02-01-01.svg';
 import Diagram from '../../../Design Elements/Project6-Nomad/Diagram-01.svg';
 import Mockup from '../../../Design Elements/Project6-Nomad/Thumnails-01.svg';
 import Apps from '../../../Design Elements/Project6-Nomad/mockup final-sm.png';
+import Next from '../ProjectsComponents/NextProject';
 
 const Project3 = () => (
   <div>
@@ -97,6 +98,7 @@ const Project3 = () => (
         <img src={Apps} />
       </div>
     </div>
+    <Next link='/campbaylodge' />
     <Random />
   </div>
 );

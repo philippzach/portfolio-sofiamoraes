@@ -11,6 +11,7 @@ import Colors from '../../../Design Elements/Project7-TurquoiseMedia/cp.svg';
 import Card from '../../../Design Elements/Project7-TurquoiseMedia/bc-sm.jpg';
 import Font from '../../../Design Elements/Project7-TurquoiseMedia/f-01.svg';
 import Mobiles from '../../../Design Elements/Project7-TurquoiseMedia/Mobile Mockup-sm.jpg';
+import Next from '../ProjectsComponents/NextProject';
 
 
 const Project5 = () => (
@@ -86,6 +87,7 @@ const Project5 = () => (
     <div className="tc">
       <img src={Mobiles} />
     </div>
+    <Next link='/quantumpeakcoaching' />
     <Random />
   </div>
 );

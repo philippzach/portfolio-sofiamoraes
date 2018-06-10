@@ -14,6 +14,7 @@ import Sketch2 from '../../../Design Elements/Project2-CampBay/2-01.svg';
 import Sketch3 from '../../../Design Elements/Project2-CampBay/3-01.svg';
 import Mockup1 from '../../../Design Elements/Project2-CampBay/m1.png';
 import Mockup2 from '../../../Design Elements/Project2-CampBay/m2.png';
+import Next from '../ProjectsComponents/NextProject';
 
 const Project4 = () => (
   <div>
@@ -141,6 +142,7 @@ const Project4 = () => (
         </h1>
       </div>
     </div>
+    <Next link='/turquoisemedia' />
     <Random />
   </div>
 );

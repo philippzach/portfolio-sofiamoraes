@@ -19,6 +19,7 @@ import Sticker from '../../../Design Elements/Project3-LApalm/stickers-sm.jpg';
 import Instagram1 from '../../../Design Elements/Project3-LApalm/iphone1.png';
 import Instagram2 from '../../../Design Elements/Project3-LApalm/iphone2.png';
 import Instagram3 from '../../../Design Elements/Project3-LApalm/iphone3.png';
+import Next from '../ProjectsComponents/NextProject';
 
 const Project2 = () => (
   <div>
@@ -106,6 +107,7 @@ const Project2 = () => (
         <img src={Instagram3} />
       </div>
     </div>
+    <Next link='/nomadyoga' />
     <Random />
   </div>
 );

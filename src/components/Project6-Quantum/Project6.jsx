@@ -9,6 +9,7 @@ import Colors from '../../../Design Elements/Project4-Quantum Peak Coaching/cp-0
 import Font1 from '../../../Design Elements/Project4-Quantum Peak Coaching/ft1g-01.svg';
 import Font2 from '../../../Design Elements/Project4-Quantum Peak Coaching/ft2g-01.svg';
 import Last from '../../../Design Elements/Project4-Quantum Peak Coaching/brandingmockup-sm.jpg';
+import Next from '../ProjectsComponents/NextProject';
 
 const Project6 = () => (
   <div>
@@ -85,6 +86,7 @@ const Project6 = () => (
       </div>
     </div>
     <img src={Last} alt="" />
+    <Next link='/mandalita' />
     <Random />
   </div>
 );
