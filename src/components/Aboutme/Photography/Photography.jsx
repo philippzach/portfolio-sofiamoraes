@@ -11,12 +11,10 @@ const Photography = () => (
         </div>
         <div className="fl w-100 w-50-ns pa2">
           <div className={styles.abouttext}>
-            <h2>
-              Product Photography
-            </h2>
+            <h2>Product Photography</h2>
             <p className="measure-narrow">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, a galley of type and
-              scrambled.
+              You need professional, colorful and fresh photos of your product? I specialize in product photography for
+              your website, online store, the Amazon marketplace, branding and more.
             </p>
           </div>
         </div>

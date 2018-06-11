@@ -16,25 +16,25 @@ const Project6 = () => (
     <ProjectTop heading="Quantum Peak Coaching" subHeading="Reaching your highest peaks" pic={HeaderImage} altText="" />
     <div className={styles.container}>
       <div className={styles.floatright}>
-        <h3>Quantum Peak Coaching</h3>
-        <h2>There is no such thing as reality, only our perception of it</h2>
+        <h2 className={styles.heading}>Quantum Peak Coaching</h2>
+        <h3>There is no such thing as reality, only our perception of it</h3>
       </div>
       <section className={styles.content}>
         <div className={styles.left}>
-          <h2>
-            <b>The Client</b>
+          <h2 className={styles.heading}>
+            The Client
           </h2>
-          <p>
+          <p className={styles.text}>
             Quantum Peak Coaching It is a Canadian company committed to support of people who consider a profound change
             in their lives, based on values and strength of personal influence. specializes, among others, in training,
             consulting and NLP training programs.
           </p>
         </div>
         <div className={styles.right}>
-          <h2>
-            <b>The Solution</b>
+          <h2 className={styles.heading}>
+            The Solution
           </h2>
-          <p>
+          <p className={styles.text}>
             I was asked to create a logo and the brand identity that would highlight the brand's uniqueness on the
             market. The Keywords that sum up branding design were: Powerful / Simplistic / ModernSleek.
           </p>
@@ -44,8 +44,8 @@ const Project6 = () => (
     <img src={Phone} alt="" />
     <div className={styles.container}>
       <div className={styles.floatright}>
-        <h2>Building the Logo</h2>
-        <p>
+        <h2 className={styles.heading}>Building the Logo</h2>
+        <p className={styles.text}>
           The graphic representation of the peak was a great metaphorical link to the peak of success and happiness they
           portray through the business, I used a minimalist and angular approach to the design which gave it a simple
           and modern touch
@@ -55,8 +55,8 @@ const Project6 = () => (
         <img src={Logo} alt="" />
       </div>
       <div>
-        <h2>
-          <b>Color Palette</b>
+        <h2 className={styles.heading}>
+          Color Palette
         </h2>
         <h3>Transmitting security, reliability and tranquility</h3>
       </div>
@@ -64,8 +64,8 @@ const Project6 = () => (
         <img src={Colors} alt="" />
       </div>
       <div className={styles.floatright}>
-        <h2>Fonts Used</h2>
-        <p>A combination of sans serif which expresses decision making, clarity and balance</p>
+        <h2 className={styles.heading}>Fonts Used</h2>
+        <p className={styles.text}>A combination of sans serif which expresses decision making, clarity and balance</p>
       </div>
       <div>
         <img src={Font1} alt="" />
@@ -86,7 +86,7 @@ const Project6 = () => (
       </div>
     </div>
     <img src={Last} alt="" />
-    <Next link='/mandalita' />
+    <Next link="/mandalita" />
     <Random />
   </div>
 );

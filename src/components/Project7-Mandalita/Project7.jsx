@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectTop from '../ProjectsComponents/ProjectTop';
-import HeaderImage from '../../../Design Elements/Project5-Mandalita/ML-01.svg';
+import HeaderImage from '../../../Design Elements/Project5-Mandalita/mandalita1.svg'; //or mandalita1.svg
 import Random from '../ProjectsComponents/BrowseProjects';
 import styles from '../ProjectsComponents/Project.module.scss';
 import Cupcake from '../../../Design Elements/Project5-Mandalita/mbphoto1-sm.jpg';
@@ -21,9 +21,9 @@ const Project7 = () => (
     <ProjectTop heading="Mandalita" subHeading="Made with Love" pic={HeaderImage} altText="" />
     <div className={styles.container}>
       <div>
-        <h2>Mandalita</h2>
+        <h2 className={styles.heading}>Mandalita</h2>
         <h3>Baked with Love</h3>
-        <p>
+        <p className={styles.text}>
           Known for its wide range of baked goods served along with comfort food, the bakery finds a middle ground
           between ethnic ingredients and an elegant and novel cuisine. Located in the historic San Sebastian de la Paz,
           Bolivia. Mandalita Bakery is at home among the small shops, the creative residents, and the unique atmosphere
@@ -36,8 +36,8 @@ const Project7 = () => (
     </div>
     <div className={styles.container}>
       <div>
-        <h2>Creating the identity</h2>
-        <p>
+        <h2 className={styles.heading}>Creating the identity</h2>
+        <p className={styles.text}>
           The new identity was inspired by the Amazonian roots of the founders and the cozy atmosphere of the restaurant
           without becoming too sweet. Indigenous patterns and textures provide subtle tactility.
         </p>
@@ -47,7 +47,7 @@ const Project7 = () => (
       </div>
       <div className={styles.horizontalline} />
       <div>
-        <h2>Fonts used</h2>
+        <h2 className={styles.heading}>Fonts used</h2>
         <h3>Finding the perfect spot between ethnic and innovative</h3>
       </div>
       <div className={styles.floatright}>
@@ -58,7 +58,7 @@ const Project7 = () => (
       </div>
       <div className={styles.horizontalline} />
       <div className={styles.floatright}>
-        <h2>Color Palette</h2>
+        <h2 className={styles.heading}>Color Palette</h2>
         <h3>Nice, simple and delicious</h3>
       </div>
       <div>
@@ -75,7 +75,7 @@ const Project7 = () => (
           <img src={Photo1} alt="" />
         </div>
         <div className={styles.right}>
-          <h2>Branding</h2>
+          <h2 className={styles.heading}>Branding</h2>
           <h3>The ethnic elements are taken as a reference to develop the entire identity system of the brand.</h3>
         </div>
       </section>

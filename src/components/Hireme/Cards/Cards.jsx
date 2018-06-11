@@ -59,13 +59,28 @@ export default class Cards extends React.Component {
     return (
       <div className={styles.container}>
         <div onClick={e => this.openStripeCheckout(8000, e)}>
-          <SingleCard image={Blitz} heading="2h Time" heading2="Random text to display" amount="6000" />
+          <SingleCard
+          image={Blitz}
+          heading="2h Time"
+          heading2="Placeholder"
+          list={[ "Icon", "Button", "Facebook Cover", "Social Media Page", "Ad Design" ]}
+          amount="6000" />
         </div>
         <div onClick={e => this.openStripeCheckout(15000, e)}>
-          <SingleCard image={Printer} heading="3h Time" heading2="Random text to display" amount="150000" />
+          <SingleCard
+          image={Printer}
+          heading="3h Time"
+          heading2="Placeholder"
+          list={[ "Business Card", "Flyers", "Posters", "Print Material", "Stickers" ]}
+          amount="150000" />
         </div>
         <div onClick={e => this.openStripeCheckout(30000, e)}>
-          <SingleCard image={Illu} heading="6h Time" heading2="Random text to display" amount="300000" />
+          <SingleCard
+          image={Illu}
+          heading="6h Time"
+          heading2="Placeholder"
+          list={[ "Logo", "Illustrations", "Posters", "Print Material", "Stickers" ]}
+          amount="300000" />
         </div>
       </div>
     );

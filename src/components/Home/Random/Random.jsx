@@ -10,7 +10,7 @@ const Random = () => (
       <div className={styles.secondarycontainer}>
         <div className={styles.container1}>
           <h2>
-            <b>Hi, I'm Sofia </b> - a graphic and web designer based in Hawaii, I enjoy creating beautiful solutions.
+            <b>Hi, I'm Sofia </b> - a graphic and experience designer based in Hawaii, I enjoy creating beautiful solutions.
           </h2>
           <div className={styles.buttondiv}>
             <Button name="More projects" link="#projects" />

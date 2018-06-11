@@ -13,7 +13,14 @@ const SingleCard = props => (
     </div>
     <div className="tc">
       <h1 className="f3 mb2">{props.heading}</h1>
+      <div >
       <h2 className="f5 fw4 gray mt0">{props.heading2}</h2>
+      <ul style={{ listStyle: "none", marginLeft: 0}}>
+        {props.list.map(function(listValue){
+          return <li>{listValue}</li>
+        })}
+      </ul>
+      </div>
     </div>
   </article>
 );

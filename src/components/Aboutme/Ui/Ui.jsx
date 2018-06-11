@@ -15,8 +15,7 @@ const Ui = () => (
               UI|UX Web <br /> Design & <br /> Development
             </h2>
             <p className="measure-narrow">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, a galley of type and
-              scrambled.
+            Leave it to me to realize your app or website into an intuitive, useful and delightful experience to interact - one that understand your user needs.
             </p>
           </div>
         </div>

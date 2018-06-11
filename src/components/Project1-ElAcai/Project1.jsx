@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Project1.module.scss';
+import styles from '../ProjectsComponents/Project.module.scss';
 import HeaderPic from '../../../Design Elements/Project1-Acai/selected.jpg';
 import AcaiLogo from '../../../Design Elements/Project1-Acai/logo-elacai-for-project-01.png';
 import Button from '../Buttons/Button1/Button1';
@@ -15,24 +15,17 @@ import Facebook from '../../../Design Elements/Project1-Acai/Facebook-page-elaca
 import Insta from '../../../Design Elements/Project1-Acai/Instagram-Elacaieurope-mockup.png';
 import Random from '../ProjectsComponents/BrowseProjects';
 import Next from '../ProjectsComponents/NextProject';
+import ProjectTop from '../ProjectsComponents/ProjectTop';
 
 const Project1 = () => (
   <div>
-    <div className={styles.container}>
-      <div style={{ marginTop: '1rem' }}>
-        <h2 style={{ marginBottom: '0.5rem' }}>
-          <b>El Acai Europe</b>
-        </h2>
-        <h3>Sharing the Spirit of Acai</h3>
-      </div>
-    </div>
-    <img src={HeaderPic} alt="El Acai Europe Design Project" />
+    <ProjectTop heading="El Acai Europe" subHeading="Sharing the Spirit of Acai" pic={HeaderPic} altText="" />
     <div className={styles.container} style={{ marginBottom: '3rem', marginTop: '1rem' }}>
       <div className={styles.floatright}>
-        <h3>
-          <b>El Acai Europe</b>
-        </h3>
-        <p style={{ fontWeight: 200 }}>
+        <h2 className={styles.heading}>
+          El Acai Europe
+        </h2>
+        <p className={styles.text}>
           A company located in Austria responsible for distributing Premium Organic Frozen Açai all around Europe.
         </p>
         <div className={styles.floatright}>
@@ -43,10 +36,10 @@ const Project1 = () => (
     <div className={styles.container} style={{ backgroundColor: 'rgb(37,7,42)' }}>
       <section className={styles.content}>
         <div className={styles.left} style={{ padding: '10% 2%' }}>
-          <h2 style={{ color: 'white', marginBottom: '0.5rem' }}>
-            <b>Building the Identity</b>
+          <h2 className={styles.heading} style={{ color: 'white' }}>
+            Building the Identity
           </h2>
-          <h3 style={{ color: 'white', fontWeight: 200 }}>The goal: Unique with a high visual impact</h3>
+          <h3 style={{ color: 'white' }}>The goal: Unique with a high visual impact</h3>
           <p style={{ color: 'white', fontWeight: 200 }}>
             Since the Acai berry is relatively new in Europe the logo should have a high visual impact to attract the
             curiosity of the market, it should represent a new flavour, a new experience and the at the same time retain
@@ -160,8 +153,8 @@ const Project1 = () => (
           <img src={Font} alt="El Acai Europe Fonts" />
         </div>
         <div className={styles.right}>
-          <h2 style={{ marginBottom: 0 }}>
-            <b>Fonts</b>
+          <h2 className={styles.heading}>
+            Fonts
           </h2>
           <h3>Is all about the fun!</h3>
           <p style={{ fontWeight: 200 }} className="measure-narrow">
@@ -182,8 +175,8 @@ const Project1 = () => (
     <div className={styles.container} style={{ marginTop: '2rem' }}>
       <section className={styles.content}>
         <div className={styles.left}>
-          <h2 style={{ marginBottom: 0 }}>
-            <b>Colour Palette</b>
+          <h2 className={styles.heading}>
+            Colour Palette
           </h2>
           <h3 style={{ marginBottom: '.3rem' }}>Welcoming a new color</h3>
           <h3>#welovepurple</h3>
@@ -211,8 +204,8 @@ const Project1 = () => (
       <section className={styles.content}>
         <div className={styles.sticky}>
           <div className={styles.left}>
-            <h2 style={{ marginBottom: '.5rem' }}>
-              <b>E-commerce for Desktop</b>
+            <h2 className={styles.heading}>
+              E-commerce for Desktop
             </h2>
             <h3 style={{ marginBottom: '.5rem' }}>Healthy had never been that delicious</h3>
             <p style={{ fontWeight: 200, marginTop: '2rem' }} className="measure-narrow">
@@ -236,10 +229,10 @@ const Project1 = () => (
         </div>
         <div className={styles.right} style={{ textAlign: 'center' }}>
         <div className={styles.Mobilecenter}>
-          <h2 style={{ color: 'white', marginBottom: '0.5rem' }}>
-            <b>Mobile Design</b>
+          <h2 className={styles.heading} style={{ color: 'white'}}>
+            Mobile Design
           </h2>
-          <h3 style={{ color: 'white', fontWeight: 200 }}>A preview of the app :)</h3>
+          <h3 style={{ color: 'white' }}>A preview of the app :)</h3>
           </div>
         </div>
       </section>

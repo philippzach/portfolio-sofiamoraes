@@ -3,13 +3,13 @@ import styles from './Projects.module.scss';
 import Projectitem from './Projectitem.jsx/Projectitem';
 import Link from 'gatsby-link';
 import Fade from 'react-reveal/Fade';
-import Acai from './pics/acai3.png';
+import Acai from '../../../../Design Elements/Home/elacaieurope.jpg';
 import laBalm from '../../../../Design Elements/Home/labalm.jpg';
 import Quantum from '../../../../Design Elements/Home/quantum.jpg';
 import Media from '../../../../Design Elements/Home/turquoisemedia.jpg';
 import CampBay from '../../../../Design Elements/Home/campbaylodge.jpg';
 import Nomad from '../../../../Design Elements/Home/nomadyoga.jpg';
-import Mandalita from '../../../../Design Elements/Home/mandalita.svg';
+import Mandalita from '../../../../Design Elements/Home/mandalita1.svg';
 
 const Projects = () => (
   <div>
@@ -26,7 +26,7 @@ const Projects = () => (
         <ul className={[styles.layout, styles.layoutleft].join(' ')}>
           <li className={styles.listitem}>
             <Link to="/labalm">
-              <Fade bottom delay={2000}>
+              <Fade bottom duration={2500} delay={2000} >
                 <Projectitem name="LA Balm" atr="Branding, Graphics, Marketing" img={laBalm} />
               </Fade>
             </Link>
@@ -34,14 +34,14 @@ const Projects = () => (
 
           <li className={styles.listitem}>
             <Link to="/turquoisemedia">
-              <Fade bottom delay={2000}>
+              <Fade bottom duration={2500} delay={3000}>
                 <Projectitem name="Turquoise Media" atr="UI/UX, Graphics" img={Media} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
             <Link to="/nomadyoga">
-              <Fade bottom delay={1000}>
+              <Fade bottom duration={2500} delay={4000}>
                 <Projectitem name="Nomad Yoga" atr="UI/UX, Graphics, Mobile Design" img={Nomad} />
               </Fade>
             </Link>
@@ -51,7 +51,7 @@ const Projects = () => (
         <ul className={styles.layout}>
           <li className={styles.listitem}>
             <Link to="/elacaieurope">
-              <Fade bottom>
+              <Fade bottom duration={2500}>
                 <Projectitem name="El Acai Europe" atr="Photography, Graphics, Web Design" img={Acai} />
               </Fade>
             </Link>
@@ -59,21 +59,21 @@ const Projects = () => (
 
           <li className={styles.listitem}>
             <Link to="/campbaylodge">
-              <Fade bottom>
+              <Fade bottom duration={2500}>
                 <Projectitem name="Camp Bay Lodge" atr="Identity, Graphics" img={CampBay} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
             <Link to="/quantumpeakcoaching">
-              <Fade bottom>
+              <Fade bottom duration={2500}>
                 <Projectitem name="Quantum Peak Coaching" atr="Branding, Logo, Graphics" img={Quantum} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
             <Link to="/mandalita">
-              <Fade bottom>
+              <Fade bottom duration={2500}>
                 <Projectitem name="Mandalita" atr="Branding, Graphics" img={Mandalita} />
               </Fade>
             </Link>

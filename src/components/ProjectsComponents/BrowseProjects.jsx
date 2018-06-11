@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import styles from './Project.module.scss';
 import stylesp from '../../components/Home/Projects/Projectitem.jsx/Projectitem.module.scss';
 import Acai from '../Home/Projects/pics/acai3.png';
@@ -8,7 +9,6 @@ import laBalm from '../../../Design Elements/Home/labalm.jpg';
 import Media from '../../../Design Elements/Home/turquoisemedia.jpg';
 import Nomad from '../../../Design Elements/Home/nomadyoga.jpg';
 import Mandalita from '../../../Design Elements/Home/mandalita.svg';
-import Link from 'gatsby-link';
 
 const ElAcai = {
   id: 1,

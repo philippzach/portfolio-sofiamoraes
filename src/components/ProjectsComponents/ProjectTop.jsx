@@ -5,10 +5,10 @@ const ProjectTop = props => (
   <div>
     <div className={styles.container}>
       <div style={{ marginTop: '1rem' }}>
-        <h2 style={{ marginBottom: '0.5rem' }}>
+        <h1 style={{ marginBottom: '0.5rem' }}>
           <b>{props.heading}</b>
-        </h2>
-        <h3>{props.subHeading}</h3>
+        </h1>
+        <h2>{props.subHeading}</h2>
       </div>
     </div>
     <img src={props.pic} alt={props.altText} style={{ width: '100%' }} />

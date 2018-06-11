@@ -22,11 +22,11 @@ const Project4 = () => (
     <div className={styles.container}>
       <section className={styles.content}>
         <div className={styles.left}>
-          <h2>What is actually</h2>
+          <h2 className={styles.heading}>What is actually</h2>
           <h3>Camp Bay Lodge?</h3>
         </div>
         <div className={styles.right}>
-          <p>
+          <p className={styles.text}>
             It is a hotel located in the uncrowded East end of Roatan, totally removed from the regular tourism hustle
             surrounded by exuberant nature.
           </p>
@@ -37,11 +37,11 @@ const Project4 = () => (
     <div className={styles.container} style={{ backgroundColor: 'darkgrey' }}>
       <section className={styles.content}>
         <div className={styles.left} style={{ padding: '10% 2%' }}>
-          <h2 style={{ color: 'white', marginBottom: '0.5rem' }}>
-            <b>Building the Identity</b>
+          <h2 className={styles.heading} style={{ color: 'white' }}>
+            Building the Identity
           </h2>
-          <h3 style={{ color: 'white', fontWeight: 200 }}>Reflecting Camp Bay Logde</h3>
-          <p style={{ color: 'white', fontWeight: 200 }}>
+          <h3 style={{ color: 'white' }}>Reflecting Camp Bay Logde</h3>
+          <p className={styles.text} style={{ color: 'white' }}>
             The client was very clear about message behind the logo: the Lodge is more about a place where you can
             return to the true nature of self, surrounded by a majestic nature and still have the opportunity to connect
             with the moment through yoga, meditation or any sports activity.
@@ -65,9 +65,9 @@ const Project4 = () => (
       </section>
       <section className={styles.content}>
         <div className={styles.left}>
-          <h2>Color Palette</h2>
+          <h2 className={styles.heading}>Color Palette</h2>
           <h3>Inspired by nature</h3>
-          <p>
+          <p className={styles.text}>
             After getting inspired by the island of Roatan, I decided to complement the favourite colour of the client:
             turquoise with a light blue representing the panoramic view of the sea along with two monochromatic grays to
             give a professional and reliable style.
@@ -79,7 +79,7 @@ const Project4 = () => (
         </div>
       </section>
       <div className="tc">
-        <h2>Developing the logo & base shape</h2>
+        <h2 className={styles.heading}>Developing the logo & base shape</h2>
         <h3>
           The main idea for the realisation of the base shape was representing the universal law of: “ as it is above so
           below” referring to every thought that we place in our mind will shape our reality.
@@ -103,7 +103,7 @@ const Project4 = () => (
     </div>
     <div className={styles.container}>
       <div className="tc">
-        <h2>What I love the most while designing this</h2>
+        <h2 className={styles.heading}>What I love the most while designing this</h2>
         <h3>
           This idea was reflected in a very simple way though two inverse triangles and a circle representing the whole.
           The definition was very pleasant for the client due that Camp Bay Lodge is not just an hotel but a space for
@@ -122,9 +122,9 @@ const Project4 = () => (
     <div className={styles.container} style={{ backgroundColor: 'darkgrey' }}>
       <section className={styles.content}>
         <div className={styles.left}>
-          <h2>On-side website</h2>
-          <h3>Merging all the elements</h3>
-          <p>
+          <h2 className={styles.heading} style={{ color: 'white' }}>On-side website</h2>
+          <h3 style={{ color: 'white' }}>Merging all the elements</h3>
+          <p className={styles.text} style={{ color: 'white' }}>
             My work was not limited to graphic design, but also to the production of audiovisual, as well as being part
             of the web design team.
           </p>

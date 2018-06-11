@@ -19,24 +19,24 @@ const Project5 = () => (
     <ProjectTop heading="Turquoise Media" subHeading="Design | Captivate | Convert" pic={HeaderImage} altText="" />
     <div className={styles.container}>
       <div>
-        <h2>The Company</h2>
+        <h2 className={styles.heading}>The Company</h2>
         <h3>
           Turquoise Media is an independent international creative agency that leads commerces into a digital world
         </h3>
       </div>
       <div className={styles.floatright}>
-        <h2>The Solution</h2>
-        <h3>
+        <h2 className={styles.heading}>The Solution</h2>
+        <p className={styles.text}>
           The founders approached me to elaborate some changes to their already established brand, of which consisted in
           refining the logo and make some changes to its web and mobile design, despite of being a super simple project,
           I enjoyed giving it that colorful & cheerful final look
-        </h3>
+        </p>
       </div>
       <div className={styles.horizontalline} />
       <div>
-        <h2>Rebranding</h2>
+        <h2 className={styles.heading}>Rebranding</h2>
         <h3>The Logo</h3>
-        <p>
+        <p className={styles.text}>
           After many iterations, I found the right graphic representation of freedom, flexibility, creativity and that
           funky style that expresses what the company is about.
         </p>
@@ -50,8 +50,8 @@ const Project5 = () => (
     </div>
     <section className="dt mw6 center pv4 pv5-m pv6-ns">
       <div className="dtc v-mid">
-        <h2>An updated website</h2>
-        <p>
+        <h2 className={styles.heading}>An updated website</h2>
+        <p className={styles.text}>
           With their new site, the aim was to communicate in the simplest, fastest, and most elegant way their strengths
           as an creative agency.
         </p>
@@ -67,7 +67,7 @@ const Project5 = () => (
           <img src={Colors} alt="Turquoise Media Color Scheme Sofia Moraes copyright" className="mw5" />
         </div>
         <div className="dtc v-mid pl3">
-          <h2>Color Palette</h2>
+          <h2 className={styles.heading}>Color Palette</h2>
           <h3>Highlighting the best creative solutions</h3>
         </div>
       </section>
@@ -77,7 +77,7 @@ const Project5 = () => (
     </div>
     <section className="dt mw6 center pv4 pv5-m pv6-ns">
       <div className="dtc v-mid">
-        <h2>Font: Quicksand</h2>
+        <h2 className={styles.heading}>Font: Quicksand</h2>
         <h3>Family: Sans Serif</h3>
       </div>
       <div className="dtc v-mid pl3">
