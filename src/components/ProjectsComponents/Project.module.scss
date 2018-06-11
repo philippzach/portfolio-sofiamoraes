@@ -10,6 +10,15 @@
         padding-right: 3.8rem;
     }
 }
+.containersm {
+    @media (min-width: 550px){
+    margin: 0 auto;
+    max-width: 40rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+}
+
 p {
     line-height: 2rem;
 }
@@ -191,6 +200,11 @@ div.left:hover img, div.right:hover img {
     line-height: 2rem;
 }
 
+//Horizontal Seperation Line
+
+.horizontalline {
+        border-top: 1px solid #8c8b8b;
+}
 
 /*.text {
     display: flex;
