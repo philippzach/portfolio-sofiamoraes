@@ -9,7 +9,7 @@ const Explanation = () => (
       <div className={styles.container}>
         <div className="measure-wide center">
           <h2 className={styles.fix} style={{ textAlign: 'center' }}>
-            I love the simple and intentional design with attention to sensations. I am busy designing,
+            I love the simple and intentional design with attention to sensations. Usually I am busy designing,
             filming or building beautiful digital products and experiences
           </h2>
           <div className="fr">

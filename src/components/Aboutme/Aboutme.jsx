@@ -20,9 +20,9 @@ const Aboutme = () => (
             Originally from Venezuela, she has spent the last 7 years traveling the world using her creative and physical skills, her obsession with order and perfection has made her a graphic designer of high caliber, her passion for image and moments has given her the opportunity to transmit sensations through the lens.
             </p>
             <p>
-            She loves to find the balance between beauty and usefulness, create aesthetic (beautiful) solutions that propel towards a more united world and collaborate with awesome and creative people all over the globe.
+            She loves to find the balance between beauty and usefulness, create aesthetic solutions that propel towards a more united world and collaborate with awesome and creative people all over the globe.
             </p>
-            <p>In her spare time you will find her only in one place: the ocean!</p>
+            <p>In her spare time you will find her only in one place: the ocean</p>
             { /* }</Typist>{*/}
           </div>
         </div>

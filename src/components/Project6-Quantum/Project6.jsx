@@ -44,7 +44,7 @@ const Project6 = () => (
     </div>
     <img src={Phone} alt="" />
     <div className={styles.container}>
-      <div className={styles.floatright} style={{marginTop: '4em', textAlign: 'right', marginBottom: '4em'}}>
+      <div className={styles.floatright} style={{marginTop: '6em', textAlign: 'right', marginBottom: '6em'}}>
         <h2 className={styles.heading}>Building the Logo</h2>
         <p className={styles.text}>
           The graphic representation of the peak was a great metaphorical link to the peak of success and happiness they
@@ -55,30 +55,35 @@ const Project6 = () => (
       <div className="tc">
         <img src={Logo} alt="" />
       </div>
-      <div style={{marginTop: '4em', marginBottom: '6em'}}>
+      <div style={{marginTop: '8em', marginBottom: '12em'}}>
         <h2 className={styles.heading}>
           Color Palette
         </h2>
         <h3>Transmitting security, reliability and tranquility</h3>
       </div>
-      <div className="tc">
+      <div className="tc" style={{ marginTop: '6em' ,marginBottom: '8em' }}>
         <img src={Colors} alt="" />
       </div>
-      <div className={styles.floatright} style={{textAlign: 'right'}}>
+      <div className={styles.floatright} style={{textAlign: 'right', marginBottom: '12em'}}>
         <h2 className={styles.heading}>Fonts Used</h2>
         <h3 className={styles.h3text}>A combination of sans serif which expresses decision making, clarity and balance</h3>
       </div>
-      <div>
+      <section className={styles.content}>
+      <div className={styles.divleft}>
         <img src={Font1} alt="" />
       </div>
-      <div className="tc" style={{marginTop: '4em', marginBottom: '4em'}}>
+      </section>
+      <div className="tc" style={{marginTop: '8em', marginBottom: '8em'}}>
         <h3>A great combination to reflect the core values of the company.</h3>
       </div>
+      
       <div className={styles.floatright}>
-        <img src={Font2} alt="" />
+        <img src={Font2} alt="" style={{marginBottom: '6em'}}/>
       </div>
+      
+      
       <div className={styles.horizontalline} />
-      <div className={styles.containersm} style={{marginTop: '4em', marginBottom: '6em'}}>
+      <div className={styles.containersm} style={{marginTop: '8em', marginBottom: '8em'}}>
       <div className="tc">
         <h3 className={styles.h3text}>
           The brand visual is the final word on Quantum Peak Coaching identity: logotype, typography, color palette,

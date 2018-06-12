@@ -88,13 +88,13 @@ const Project4 = () => (
       </div>
       <div className={syle.flex}>
       <div>
-        <img className={syle.icons} src={Sketch1} alt="" style={{marginTop: '5px', width: '25em'}} />
+        <img className={syle.icons} src={Sketch1} alt="" style={{ width: '20em'}} />
         </div>
         <div>
-        <img className={syle.icons} src={Sketch2} alt="" style={{width: '25em'}}/>
+        <img className={syle.icons} src={Sketch2} alt="" style={{width: '20em'}}/>
         </div>
         <div>
-        <img className={syle.icons} src={Sketch3} alt="" style={{width: '25em'}}/>
+        <img className={syle.icons} src={Sketch3} alt="" style={{width: '20em'}}/>
         </div>
       </div>
       <div className={styles.containersm} style={{marginTop: '4em', marginBottom: '6em'}}>
@@ -107,7 +107,7 @@ const Project4 = () => (
       </div>
       </div>
     </div>
-    <img src={Group} alt="" />
+    <img src={Group} alt="" style={{ width: '100%'}}/>
     <div className={styles.container}>
       <div className="tc">
         <h2 className={styles.heading} style={{marginTop: '4em'}}>What I love the most while designing this!</h2>
@@ -128,24 +128,9 @@ const Project4 = () => (
         </div>
       </section>
     </div>
-    <div className={styles.container} style={{ backgroundColor: 'lightgrey' }}>
-      <section className={styles.content}>
-        <div className={styles.divleft} style={{marginTop: '12%'}}>
-          <h2 className={styles.heading} style={{  }}>On-side website</h2>
-          <h3 style={{  }}>Merging all the elements</h3>
-          <p className={styles.text} style={{  }}>
-            My work was not limited to graphic design, but also to the production of audiovisual, as well as being part
-            of the web design team.
-          </p>
-        </div>
-        <div className={styles.divright}>
-          <img src={Mockup2} alt="" />
-        </div>
-      </section>
-    </div>
     <div className={styles.container}>
     <div className={styles.containersm}>
-      <div className="tc" style={{marginTop: '4em', marginBottom: '6em'}}>
+      <div className="tc" style={{marginTop: '4em', marginBottom: '8em'}}>
         <h2 className={syle.lastwords}>
           <b>Camp Bay lodge is part of one of the most remote and original communities in the world</b> full of life,
           exotic food and surrounded by ancient special feeling.
@@ -159,3 +144,20 @@ const Project4 = () => (
 );
 
 export default Project4;
+
+
+/*<div className={styles.container} style={{ backgroundColor: 'lightgrey' }}>
+      <section className={styles.content}>
+        <div className={styles.divleft} style={{marginTop: '12%'}}>
+          <h2 className={styles.heading} style={{  }}>On-side website</h2>
+          <h3 style={{  }}>Merging all the elements</h3>
+          <p className={styles.text} style={{  }}>
+            My work was not limited to graphic design, but also to the production of audiovisual, as well as being part
+            of the web design team.
+          </p>
+        </div>
+        <div className={styles.divright}>
+          <img src={Mockup2} alt="" />
+        </div>
+      </section>
+    </div>*/ 

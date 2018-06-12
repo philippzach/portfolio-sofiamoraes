@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectTop from '../ProjectsComponents/ProjectTop';
-import HeaderImage from '../../../Design Elements/Project6-Nomad/Cards1-sm.png';
+import HeaderImage from '../../../Design Elements/Project6-Nomad/Cards1-sm.jpg';
 import Random from '../ProjectsComponents/BrowseProjects';
 import styles from '../ProjectsComponents/Project.module.scss';
 import syle from '../Project3-Nomad/Project3.module.scss';

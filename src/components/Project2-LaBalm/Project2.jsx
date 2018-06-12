@@ -8,7 +8,7 @@ import Logo from '../../../Design Elements/Project3-LApalm/Lb-01.svg';
 import Font1 from '../../../Design Elements/Project3-LApalm/tps-01.svg';
 import Font2 from '../../../Design Elements/Project3-LApalm/tp2-01.svg';
 import Colors from '../../../Design Elements/Project3-LApalm/pc-01.svg';
-import Product1 from '../../../Design Elements/Project3-LApalm/bb2-sm.jpg';
+import Product1 from '../../../Design Elements/Project3-LApalm/minilabalm-min.jpg';
 import Product2 from '../../../Design Elements/Project3-LApalm/Face Oil-sm.jpg';
 import Product3 from '../../../Design Elements/Project3-LApalm/Boxes Mockup-sm.jpg';
 import Catalog1 from '../../../Design Elements/Project3-LApalm/book2-sm.jpg';
@@ -80,24 +80,38 @@ const Project2 = () => (
         <h3 className={styles.h3text}>LA Balm, a brand with a steadfast belief in the power of self-love and communion with nature.</h3>
       </div>
       <div>
-        <img src={Product1} />
+      <div className="fl w-100 pa2">
+        <img src={Product1} style={{width: '100%'}}/>
+        </div>
+        <div className="fl w-third pa2">
         <img src={Product2} />
+        </div>
+        <div className="fl w-two-thirds pa2">
         <img src={Product3} />
+        </div>
       </div>
       <div className="tc" style={{ marginTop: "4em", marginBottom: "4em" }}>
         <h2 className={styles.heading}>Catalog Design</h2>
         <h3 className={styles.h3text}>Good vibes go a long way*</h3>
       </div>
       <div>
+      <div className="fl w-100 pa2">
         <img src={Catalog1} />
+        </div>
+        <div className="fl w-third pa2">
         <img src={Catalog2} />
+        </div>
+        <div className="fl w-third pa2">
         <img src={Catalog3} />
+        </div>
+        <div className="fl w-third pa2">
         <img src={Catalog4} />
+        </div>
       </div>
+      
+      <img src={Sticker} style={{marginTop: '4em'}} />
       <div className={styles.horizontalline} />
-      <img src={Sticker} />
-      <div className={styles.horizontalline} />
-      <div className="tc" style={{ marginTop: "4em", marginBottom: "4em" }}>
+      <div className="tc" style={{ marginTop: "6em", marginBottom: "6em" }}>
         <h2 className={styles.heading}>Instagram Graphics</h2>
         <h3 className={styles.h3text}>'How to' Instagram slide graphics.</h3>
       </div>

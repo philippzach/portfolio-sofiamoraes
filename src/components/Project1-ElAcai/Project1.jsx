@@ -9,7 +9,7 @@ import Font from '../../../Design Elements/Project1-Acai/Font.jpeg';
 import Print from '../../../Design Elements/Project1-Acai/branding-elacai-mockup.jpg';
 import Color from '../../../Design Elements/Project1-Acai/Acai-Color-Palette.jpg';
 import Cards from '../../../Design Elements/Project1-Acai/bc-mockup-foracai.jpg';
-import Website from '../../../Design Elements/Project1-Acai/Acai-abonewsite-sm.jpg';
+import Website from '../../../Design Elements/Project1-Acai/Acai-abonewsite-new-sm.jpg';
 import Mobile from '../../../Design Elements/Project1-Acai/iPhone-mockup-sm.png';
 import Facebook from '../../../Design Elements/Project1-Acai/Facebook-page-elacaieuorpe.png';
 import Insta from '../../../Design Elements/Project1-Acai/Instagram-Elacaieurope-mockup.png';
@@ -19,12 +19,10 @@ import ProjectTop from '../ProjectsComponents/ProjectTop';
 
 const Project1 = () => (
   <div>
-    <ProjectTop heading="El Acai Europe" subHeading="Sharing the Spirit of Acai" pic={HeaderPic} altText="" />
+    <ProjectTop heading="El Açai Europe" subHeading="Sharing the Spirit of Acai" pic={HeaderPic} altText="" />
     <div className={styles.container} style={{ marginBottom: '3rem', marginTop: '1rem' }}>
       <div className={styles.floatright}>
-        <h2 className={styles.heading}>
-          El Acai Europe
-        </h2>
+        <h2 className={styles.heading}>El Açai Europe</h2>
         <p className={styles.text}>
           A company located in Austria responsible for distributing Premium Organic Frozen Açai all around Europe.
         </p>
@@ -153,9 +151,7 @@ const Project1 = () => (
           <img src={Font} alt="El Acai Europe Fonts" />
         </div>
         <div className={styles.right}>
-          <h2 className={styles.heading}>
-            Fonts
-          </h2>
+          <h2 className={styles.heading}>Fonts</h2>
           <h3>Is all about the fun!</h3>
           <p style={{ fontWeight: 200 }} className="measure-narrow">
             Bold, simple and original. The selected font was used mainly to enhance the nature of the product and its
@@ -175,9 +171,7 @@ const Project1 = () => (
     <div className={styles.container} style={{ marginTop: '2rem' }}>
       <section className={styles.content}>
         <div className={styles.left}>
-          <h2 className={styles.heading}>
-            Colour Palette
-          </h2>
+          <h2 className={styles.heading}>Colour Palette</h2>
           <h3 style={{ marginBottom: '.3rem' }}>Welcoming a new color</h3>
           <h3>#welovepurple</h3>
         </div>
@@ -204,9 +198,7 @@ const Project1 = () => (
       <section className={styles.content}>
         <div className={styles.sticky}>
           <div className={styles.left}>
-            <h2 className={styles.heading}>
-              E-commerce for Desktop
-            </h2>
+            <h2 className={styles.heading}>E-commerce for Desktop</h2>
             <h3 style={{ marginBottom: '.5rem' }}>Healthy had never been that delicious</h3>
             <p style={{ fontWeight: 200, marginTop: '2rem' }} className="measure-narrow">
               An easy way to get this delicious superfood to your doorstep! A user who signs up for a subscription gets
@@ -228,25 +220,38 @@ const Project1 = () => (
           <img src={Mobile} alt="El Acai Mobile Design Mockup Sofia Moraes" />
         </div>
         <div className={styles.right} style={{ textAlign: 'center' }}>
-        <div className={styles.Mobilecenter}>
-          <h2 className={styles.heading} style={{ color: 'white'}}>
-            Mobile Design
-          </h2>
-          <h3 style={{ color: 'white' }}>A preview of the app :)</h3>
+          <div className={styles.Mobilecenter}>
+            <h2 className={styles.heading} style={{ color: 'white' }}>
+              Mobile Design
+            </h2>
+            <h3 style={{ color: 'white' }}>A preview of the app :)</h3>
           </div>
         </div>
       </section>
     </div>
     <div className={styles.container}>
-    <div className={styles.text}>
-    <p style={{ fontWeight: 200, marginTop: '5rem', marginBottom: '5rem', maxWidth: "25rem" }} className="tc">What I really enjoyed about this project was that I could use my imagination freely to create media content for the brand. And of course, eat all the Acai I wanted in the meantime :D </p>
+      <div className="tc">
+        <div className={styles.containersm}>
+          <p style={{ fontWeight: 200, marginTop: '5rem', marginBottom: '5rem' }} className="tc">
+            What I really enjoyed about this project was that I could use my imagination freely to create media content
+            for the brand. And of course, eat all the Acai I wanted in the meantime :D{' '}
+          </p>
+        </div>
+      </div>
+      <div className={styles.boxes}>
+        <ul className={[styles.layout, styles.layoutleft].join(' ')}>
+          <li className={styles.listitem}>
+            <img className={styles.shadow} src={Facebook} />
+          </li>
+        </ul>
+        <ul className={styles.layout}>
+          <li className={styles.listitem}>
+            <img className={styles.shadow} src={Insta} />
+          </li>
+        </ul>
+      </div>
     </div>
-    <div className={styles.boxes}>
-    <ul className={[styles.layout, styles.layoutleft].join(' ')}><li className={styles.listitem}><img className={styles.shadow} src={Facebook}/></li></ul>
-    <ul className={styles.layout}><li className={styles.listitem}><img className={styles.shadow} src={Insta}/></li></ul>
-    </div>
-    </div>
-    <Next link='/labalm' />
+    <Next link="/labalm" />
     <Random />
   </div>
 );
