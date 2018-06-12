@@ -3,6 +3,7 @@ import ProjectTop from '../ProjectsComponents/ProjectTop';
 import HeaderImage from '../../../Design Elements/Project5-Mandalita/mandalita1.svg'; //or mandalita1.svg
 import Random from '../ProjectsComponents/BrowseProjects';
 import styles from '../ProjectsComponents/Project.module.scss';
+import syle from './Project7.module.scss';
 import Cupcake from '../../../Design Elements/Project5-Mandalita/mbphoto1-sm.jpg';
 import Logo from '../../../Design Elements/Project5-Mandalita/l-01.svg';
 import Font1 from '../../../Design Elements/Project5-Mandalita/f2-01.svg';
@@ -20,7 +21,7 @@ const Project7 = () => (
   <div>
     <ProjectTop heading="Mandalita" subHeading="Made with Love" pic={HeaderImage} altText="" />
     <div className={styles.container}>
-      <div>
+      <div className={styles.divleft} style={{marginTop: '2em', marginBottom: '2em'}}>
         <h2 className={styles.heading}>Mandalita</h2>
         <h3>Baked with Love</h3>
         <p className={styles.text}>
@@ -35,7 +36,7 @@ const Project7 = () => (
       <img src={Cupcake} alt="" />
     </div>
     <div className={styles.container}>
-      <div>
+      <div className={styles.divleft} style={{marginTop: '2em', marginBottom: '2em'}}>
         <h2 className={styles.heading}>Creating the identity</h2>
         <p className={styles.text}>
           The new identity was inspired by the Amazonian roots of the founders and the cozy atmosphere of the restaurant
@@ -45,7 +46,7 @@ const Project7 = () => (
       <div className="tc">
         <img src={Logo} alt="" />
       </div>
-      <div className={styles.horizontalline} />
+      <div className={styles.horizontalline} style={{marginTop: '4em', marginBottom: '4em'}} />
       <div>
         <h2 className={styles.heading}>Fonts used</h2>
         <h3>Finding the perfect spot between ethnic and innovative</h3>
@@ -56,50 +57,50 @@ const Project7 = () => (
       <div className={styles.floatright}>
         <img src={Font2} alt="" />
       </div>
-      <div className={styles.horizontalline} />
-      <div className={styles.floatright}>
+      <div className={styles.horizontalline} style={{marginTop: '4em', marginBottom: '4em'}} />
+      <div className={styles.floatright} style={{textAlign: 'right'}}>
         <h2 className={styles.heading}>Color Palette</h2>
         <h3>Nice, simple and delicious</h3>
       </div>
-      <div>
-        <img src={Color1} alt="" />
+      <div className={syle.colors}>
+        <img src={Color1} alt="" style={{marginBottom: '-5em'}}/>
       </div>
-      <div>
-        <img src={Color2} alt="" />
+      <div className={syle.colors}>
+        <img src={Color2} alt="" style={{marginBottom: '-5em'}}/>
       </div>
-      <div>
-        <img src={Color3} alt="" />
+      <div className={syle.colors}>
+        <img src={Color3} alt="" style={{marginBottom: '0'}}/>
       </div>
-      <section className={styles.content}>
-        <div className={styles.left}>
+      <section className={styles.content} style={{marginTop: '4em'}}>
+        <div className={styles.divleft}>
           <img src={Photo1} alt="" />
         </div>
-        <div className={styles.right}>
+        <div className={styles.divright} style={{textAlign: 'right', marginTop: '5%'}}>
           <h2 className={styles.heading}>Branding</h2>
-          <h3>The ethnic elements are taken as a reference to develop the entire identity system of the brand.</h3>
+          <h3 className={styles.h3text}>The ethnic elements are taken as a reference to develop the entire identity system of the brand.</h3>
         </div>
       </section>
-      <section className={styles.content}>
-        <div className={styles.left}>
-          <h3>
+      <section className={styles.content} style={{marginTop: '4em'}}>
+        <div className={styles.divleft} style={{ marginTop: '14%'}}>
+          <h3 className={styles.h3text}>
             Creating a proper language for the bakery that is implemented both in its communication and in the goods
             packaging system
           </h3>
         </div>
-        <div className={styles.right}>
+        <div className={styles.divright}>
           <img src={Photo2} alt="" />
         </div>
       </section>
-      <section className={styles.content}>
-        <div className={styles.left}>
+      <section className={styles.content} style={{marginTop: '4em'}}>
+        <div className={styles.divleft}>
           <img src={Photo3} alt="" />
         </div>
-        <div className={styles.right}>
-          <h3>With the creation of a simple app ordering your favorite dessert in Monchi's time was never so easy!</h3>
+        <div className={styles.divright} style={{ marginTop: '14%'}}>
+          <h3 className={styles.h3text}>With the creation of a simple app ordering your favorite dessert in Monchi's time was never so easy!</h3>
         </div>
       </section>
     </div>
-    <img src={Last} alt="" />
+    <img src={Last} alt="" style={{marginTop: '4em', marginBottom: '4em'}}/>
     <Next link='/elacaieurope' />
     <Random />
   </div>
