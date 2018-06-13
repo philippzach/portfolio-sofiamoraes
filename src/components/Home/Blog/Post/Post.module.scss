@@ -40,21 +40,24 @@
     }
     -ms-flex-item-align: end;
     align-self: flex-end;
-    
     width: 85px;
     font-size: 0.65rem;
+    @media (max-width: 450px) {
+        display: none;
+    }
 }
+
 .title {
     padding: 0;
     margin: 0;
     font-family: inherit;
     font-style: inherit;
     font-size: inherit;
-    font-weight: inherit;
+    font-weight: 200;
     line-height: inherit;
     vertical-align: baseline;
     border: 0;
-    font-size: 21px;
+    font-size: 1.3em;
     margin-bottom: .09615em;
     letter-spacing: -.025em;
     line-height: 1.11538;

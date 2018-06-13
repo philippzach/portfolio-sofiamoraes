@@ -11,7 +11,7 @@ const Footer = () => (
         I'm always interested in working on new projects. You can
         <Link to="/hireme">
           {' '}
-          <b className={styles.link}>Hire Me</b>{' '}
+          <span className={styles.link}>Hire Me</span>{' '}
         </Link>
         for a few hours or we can work together on a bigger project.
       </p>

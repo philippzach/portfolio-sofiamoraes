@@ -11,6 +11,7 @@ import CampBay from '../../../../Design Elements/Home/campbaylodge.jpg';
 import Nomad from '../../../../Design Elements/Home/nomadyoga.jpg';
 import Mandalita from '../../../../Design Elements/Home/mandalita1.svg';
 
+
 const Projects = () => (
   <div>
     <div className={styles.container}>
