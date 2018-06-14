@@ -9,8 +9,8 @@ import Font1 from '../../../Design Elements/Project3-LApalm/tps-01.svg';
 import Font2 from '../../../Design Elements/Project3-LApalm/tp2-01.svg';
 import Colors from '../../../Design Elements/Project3-LApalm/pc-01.svg';
 import Product1 from '../../../Design Elements/Project3-LApalm/minilabalm-min.jpg';
-import Product2 from '../../../Design Elements/Project3-LApalm/Face Oil-sm.jpg';
-import Product3 from '../../../Design Elements/Project3-LApalm/Boxes Mockup-sm.jpg';
+import Product2 from '../../../Design Elements/Project3-LApalm/Face-oil-same-sm.jpg'; // Face Oil-sm.jpg
+import Product3 from '../../../Design Elements/Project3-LApalm/Boxes Mockup-sm.jpg'; //  Face-oil-boxes-same-sm.jpg
 import Catalog1 from '../../../Design Elements/Project3-LApalm/book2-sm.jpg';
 import Catalog2 from '../../../Design Elements/Project3-LApalm/bb blue-sm.jpg';
 import Catalog3 from '../../../Design Elements/Project3-LApalm/bookcoco-sm.jpg';

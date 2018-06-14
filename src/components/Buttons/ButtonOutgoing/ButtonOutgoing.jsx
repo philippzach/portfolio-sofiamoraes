@@ -1,10 +1,9 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import styles from './Button1.module.scss';
+import styles from '../Button1/Button1.module.scss';
 
-const Button1 = props => (
+const ButtonOutgoing = props => (
   <div>
-    <Link to={props.link}>
+    <a href={props.link}>
       <span>
         <span className={styles.setup}>
           <svg className={styles.arrow} height="10" viewBox="0 0 306 306" width="10">
@@ -16,8 +15,8 @@ const Button1 = props => (
           </span>
         </span>
       </span>
-    </Link>
+    </a>
   </div>
 );
 
-export default Button1;
+export default ButtonOutgoing;

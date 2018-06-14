@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../ProjectsComponents/Project.module.scss';
 import HeaderPic from '../../../Design Elements/Project1-Acai/selected.jpg';
 import AcaiLogo from '../../../Design Elements/Project1-Acai/logo-elacai-for-project-01.png';
-import Button from '../Buttons/Button1/Button1';
+import Button from '../Buttons/ButtonOutgoing/ButtonOutgoing';
 import AcaiLogoRulers from '../../../Design Elements/Project1-Acai/elacai-rulers.jpg';
 import PrintMockup from '../../../Design Elements/Project1-Acai/logo-print-mockup.jpg';
 import Font from '../../../Design Elements/Project1-Acai/Font.jpeg';
@@ -27,7 +27,7 @@ const Project1 = () => (
           A company located in Austria responsible for distributing Premium Organic Frozen Açai all around Europe.
         </p>
         <div className={styles.floatright}>
-          <Button name="Link to site" link="elacai.de" />
+          <Button name="Link to site" link="https://elacai.de" />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectTop from '../ProjectsComponents/ProjectTop';
-import HeaderImage from '../../../Design Elements/Project5-Mandalita/mandalita1.svg'; //or mandalita1.svg
+import HeaderImage from '../../../Design Elements/Project5-Mandalita/mandalitamini.jpg'; //or mandalita1.svg
 import Random from '../ProjectsComponents/BrowseProjects';
 import styles from '../ProjectsComponents/Project.module.scss';
 import syle from './Project7.module.scss';

@@ -2,7 +2,7 @@
   "name": "gatsby-starter-portfolio-emma",
   "description": "Gatsby Starter Portfolio Emma",
   "version": "1.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "Philipp Zach dev@philippzach.com (https://www.sofiamoraes.com)",
   "repository": {
     "url": "https://github.com/LeKoArts/gatsby-starter-portfolio-emma",
     "type": "git"
@@ -21,7 +21,7 @@
     "gatsby-plugin-manifest": "^1.0.14",
     "gatsby-plugin-nprogress": "^1.0.12",
     "gatsby-plugin-offline": "^1.0.14",
-    "gatsby-plugin-postcss-sass": "^1.0.17",
+    "gatsby-plugin-postcss-sass": "^1.0.21",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-react-next": "^1.0.11",
     "gatsby-plugin-sharp": "^1.6.47",
@@ -30,7 +30,7 @@
     "gatsby-plugin-stripe-elements": "^1.0.6",
     "gatsby-plugin-typography": "^1.7.15",
     "gatsby-remark-external-links": "^0.0.4",
-    "gatsby-remark-images": "^1.5.52",
+    "gatsby-remark-images": "^1.5.66",
     "gatsby-remark-responsive-iframe": "^1.4.17",
     "gatsby-source-filesystem": "^1.5.38",
     "gatsby-transformer-remark": "^1.7.33",
@@ -47,7 +47,6 @@
     "react-stripe-checkout": "^2.6.3",
     "react-stripe-elements": "^1.6.0",
     "react-transition-group": "^2.3.1",
-    "react-typeform-embed": "^0.1.6",
     "react-typist": "^2.0.4",
     "typography-theme-moraga": "^0.15.10"
   },

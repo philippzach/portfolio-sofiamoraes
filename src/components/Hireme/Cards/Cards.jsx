@@ -1,11 +1,11 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import styles from './Cards.module.scss';
 import SingleCard from '../SingleCard/SingleCard';
 import Blitz from './blitz.svg';
 import Printer from './printer.svg';
 import Illu from './illustration.svg';
 import About from '../../Aboutme/aboutsm.jpg';
-import { Redirect } from 'react-router-dom';
 
 let stripeHandler;
 
@@ -62,7 +62,7 @@ export default class Cards extends React.Component {
 
   render() {
     if (this.state.loading) {
-      return <Redirect to="/typeform" />;
+      return <Redirect to="/creativebrief" />;
     }
     return (
       <div className={styles.container}>

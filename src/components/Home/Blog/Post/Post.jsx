@@ -8,7 +8,7 @@ const Post = props => (
     <h3 className={styles.title}>{props.title}</h3>
     <div>
       <div className={styles.mobilelink}>
-        <Button name="Read more"/>
+        <Button name="Read more" link={props.link} />
       </div>
     </div>
   </div>

@@ -42,7 +42,7 @@ export default class Navigation extends Component {
                 <li className={styles.item}>About</li>
               </Link>
 
-              <Link to="/blog" activeClassName="active" onClick={() => this.closeMenu()}>
+              <Link to="/blogex2" activeClassName="active" onClick={() => this.closeMenu()}>
                 <li className={styles.item}>Blog</li>
               </Link>
 

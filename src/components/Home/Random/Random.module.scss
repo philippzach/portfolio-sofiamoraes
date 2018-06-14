@@ -137,13 +137,26 @@
     }
 }
 .projectimg {
-    animation-name: FadeInOut;
+    /* animation-name: FadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 10s; */
     //animation-direction: alternate;
     //transition: opacity 1s ease-in-out;
+    opacity:0; 
+    animation-name: fade; 
+    animation-duration: 18s; 
+    animation-iteration-count: infinite; 
+    position: absolute;
 }
+
+.pulsingdiv img:nth-child(1) {animation-delay: 0s;}
+.pulsingdiv img:nth-child(2) {animation-delay: 3s;}
+.pulsingdiv img:nth-child(3) {animation-delay: 6s;}
+.pulsingdiv img:nth-child(4) {animation-delay: 9s;}
+.pulsingdiv img:nth-child(5) {animation-delay: 12s;}
+.pulsingdiv img:nth-child(6) {animation-delay: 15s;}
+.pulsingdiv img:nth-child(7) {animation-delay: 18s;}
 
 .pulsingdiv {
     color: inherit;
@@ -167,11 +180,11 @@
         max-height: 300px;
         max-width: 300px;
     }
-    animation: pulse 3s infinite;
+  /*   animation: pulse 3s infinite;
     animation-direction: alternate;
-    animation-name: pulse;
+    animation-name: pulse; */
     z-index: 3;
-    transition: opacity 1s ease-in-out;
+    //transition: opacity 1s ease-in-out;
 }
 
 @keyframes pulse {
@@ -185,7 +198,13 @@
       transform: scale(1);
     }
   }
-
+@keyframes fade {
+    0%   { opacity: 0; }
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 1; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
+}
   
   
  

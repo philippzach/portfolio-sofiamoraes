@@ -4,7 +4,7 @@ import HeaderImage from '../../../Design Elements/Project2-CampBay/Banner-sm.jpg
 import Random from '../ProjectsComponents/BrowseProjects';
 import styles from '../ProjectsComponents/Project.module.scss';
 import syle from './Project4.module.scss';
-import Button from '../Buttons/Button1/Button1';
+import Button from '../Buttons/ButtonOutgoing/ButtonOutgoing';
 import Logos from '../../../Design Elements/Project2-CampBay/logo-icons.svg';
 import Picture from '../../../Design Elements/Project2-CampBay/cblphoto-sm.png';
 import Group from '../../../Design Elements/Project2-CampBay/Group-5.png';
@@ -32,7 +32,7 @@ const Project4 = () => (
             It is a hotel located in the uncrowded East end of Roatan, totally removed from the regular tourism hustle
             surrounded by exuberant nature.
           </p>
-          <Button name="Link to site" link="" />
+          <Button name="Link to site" link="http://campbaylodge.com/" />
         </div>
       </section>
     </div>
