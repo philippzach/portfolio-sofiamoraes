@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://sofiamoraes.com/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/about/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/hireme/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/blogex2/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/labalm/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/turquoisemedia/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/nomadyoga/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/elacaieurope/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/campbaylodge/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/quantumpeakcoaching/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/mandalita/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/blogex1/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sofiamoraes.com/creativebrief/</loc>
-  <lastmod>2018-06-14T12:00:38+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://sofiamoreas.com/blob-sphere-make-spheres-blob</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/blogex1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/blogex2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/campbaylodge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/creativebrief/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/elacaieurope/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/hireme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/labalm/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/mandalita/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/nomadyoga/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/quantumpeakcoaching/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://sofiamoreas.com/turquoisemedia/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
