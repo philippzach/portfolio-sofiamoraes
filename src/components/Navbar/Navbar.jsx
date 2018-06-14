@@ -13,7 +13,7 @@ const Navbar = () => (
     <div className={styles.hiremecontainer}>
       <Link to="/hireme">
         <div className={styles.text}>
-          <a className="slide-left-right">Hire Me</a>
+          <span className="slide-left-right">Hire Me</span>
           <svg id={styles.star} x="0px" y="0px" viewBox="0 0 511.999 511.999" height="30px">
             <path
               className={styles.starright}

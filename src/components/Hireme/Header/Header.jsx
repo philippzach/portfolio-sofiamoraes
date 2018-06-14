@@ -5,8 +5,8 @@ const Header = () => (
   <div className={styles.header}>
     <div className={styles.line}>
     <h2 className={styles.spacing}>
-      Its easy: you can hire me for a few hours Perfect if you need a small task to be done :) or you can Email me with
-      about your project!
+    Tap into a design solution that gives you you the best quality, flexibility and originality you’ve ever wanted.
+    <br/><b>Hire me for a few hours!</b>
       <br />
     </h2>
     </div>

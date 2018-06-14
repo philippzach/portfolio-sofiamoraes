@@ -4,7 +4,6 @@ import styles from './Blog.module.scss';
 import Container from '../../Container/Container';
 import Post from './Post/Post';
 
-
 const Blog = () => (
   <div className={styles.background}>
     <Container>
@@ -18,12 +17,12 @@ const Blog = () => (
           </div>
         </div>
         <div className={styles.posts}>
-        <Link to="/blogex1" className={styles.blogpost}>
-          <Post title="My camera gear and process" date="02. Mar 18" />
-        </Link>
-        <Link to="/blogex2" className={styles.blogpost}>
-          <Post title="Color correction in instagram times" date="18. Apr 18" />
-        </Link>
+          <Link to="/blogex1" className={styles.blogpost}>
+            <Post title="My camera gear and process" date="02. Mar 18" link="/blogex1" />
+          </Link>
+          <Link to="/blogex2" className={styles.blogpost}>
+            <Post title="Color correction in instagram times" date="18. Apr 18" link="/blogex2" />
+          </Link>
         </div>
       </div>
     </Container>

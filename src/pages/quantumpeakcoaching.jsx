@@ -6,7 +6,7 @@ import Project6 from '../components/Project6-Quantum/Project6';
 
 const Blog = () => (
   <div>
-    <Helmet title={`Camp Bay Lodge | ${config.siteTitle}`} />
+    <Helmet title={`Quantum Peak Coaching | ${config.siteTitle}`} />
     <Project6 />
     <Footer />
   </div>

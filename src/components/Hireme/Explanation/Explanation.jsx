@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Explanation.module.scss';
+import Link from 'gatsby-link';
 
 const Explanation = () => (
   <div className={styles.header}>
@@ -52,11 +53,11 @@ const Explanation = () => (
               </div>
               <div className={styles.textcontainer2}>
                 <p>
-                  As soon as you make a purchase, you can fill out this{' '}
-                  <a href="" className={styles.link}>
+                  As soon as you make a choice, you can fill out this{' '}
+                  <Link to="/creativebrief" className={styles.link}>
                     Creative Brief
-                  </a>{' '}
-                  or wait until I get in touch with you (max 24h)
+                  </Link>{' '}
+                  and wait until I get in touch with you (max 24h)
                 </p>
               </div>
             </div>

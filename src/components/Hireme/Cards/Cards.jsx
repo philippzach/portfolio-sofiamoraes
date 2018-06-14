@@ -1,4 +1,5 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import styles from './Cards.module.scss';
 import SingleCard from '../SingleCard/SingleCard';
 import Blitz from './blitz.svg';
@@ -12,10 +13,13 @@ export default class Cards extends React.Component {
   constructor(props) {
     super(props);
     this.openStripeCheckout = this.openStripeCheckout.bind(this);
+    this.state = {
+      loading: false,
+    };
   }
 
   componentDidMount() {
-   stripeHandler = StripeCheckout.configure({
+    stripeHandler = StripeCheckout.configure({
       key: 'pk_test_llM7Ft0pbTy2y8BROIJ8RuWy',
       locale: 'auto',
     });
@@ -45,8 +49,9 @@ export default class Cards extends React.Component {
           }),
         })
           .then(response => response.json())
-          .then(json => {
-            console.log(json);
+          .then(data => {
+            this.setState({ loading: true });
+            console.log(this.state);
           })
           .catch(error => {
             console.log(`Fetch failed:${error}`);
@@ -56,18 +61,77 @@ export default class Cards extends React.Component {
   }
 
   render() {
+    if (this.state.loading) {
+      return <Redirect to="/creativebrief" />;
+    }
     return (
       <div className={styles.container}>
         <div onClick={e => this.openStripeCheckout(8000, e)}>
-          <SingleCard image={Blitz} heading="2h Time" heading2="Random text to display" amount="6000" />
+          <SingleCard
+            image={Blitz}
+            heading="2 hours"
+            heading2="Simple Graphics"
+            list={['Icon', 'Button', 'Facebook Ads', 'Social Media Page', 'Ad Design']}
+            amount="6000"
+          />
         </div>
         <div onClick={e => this.openStripeCheckout(15000, e)}>
-          <SingleCard image={Printer} heading="3h Time" heading2="Random text to display" amount="150000" />
+          <SingleCard
+            image={Printer}
+            heading="3 hours"
+            heading2="Marketing Material"
+            list={['Business Cards', 'Flyers', 'Posters', 'Print Material', 'Stickers']}
+            amount="150000"
+          />
         </div>
         <div onClick={e => this.openStripeCheckout(30000, e)}>
-          <SingleCard image={Illu} heading="6h Time" heading2="Random text to display" amount="300000" />
+          <SingleCard
+            image={Illu}
+            heading="6 hours"
+            heading2="Art & More"
+            list={['Logo', 'Illustration', 'Packaging', 'Pattern', 'Animations']}
+            amount="300000"
+          />
         </div>
       </div>
     );
   }
 }
+
+/*
+if (!this.loading.false) {
+  return (
+    <div className={styles.container}>
+      <div onClick={e => this.openStripeCheckout(8000, e)}>
+        <SingleCard
+          image={Blitz}
+          heading="2 hours"
+          heading2="Simple Graphics"
+          list={['Icon', 'Button', 'Facebook Ads', 'Social Media Page', 'Ad Design']}
+          amount="6000"
+        />
+      </div>
+      <div onClick={e => this.openStripeCheckout(15000, e)}>
+        <SingleCard
+          image={Printer}
+          heading="3 hours"
+          heading2="Marketing Material"
+          list={['Business Cards', 'Flyers', 'Posters', 'Print Material', 'Stickers']}
+          amount="150000"
+        />
+      </div>
+      <div onClick={e => this.openStripeCheckout(30000, e)}>
+        <SingleCard
+          image={Illu}
+          heading="6 hours"
+          heading2="Art & More"
+          list={['Logo', 'Illustration', 'Packaging', 'Pattern', 'Animations']}
+          amount="300000"
+        />
+      </div>
+    </div>
+  );
+} else {
+  return <Redirect to="/typeform" />;
+}
+*/

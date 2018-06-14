@@ -9,16 +9,17 @@ const Branding = () => (
         <div className="fl w-100 w-50-ns pa2">
           <div className={styles.abouttext}>
             <h2>
-              Branding and <br /> Identy
+              Branding and <br /> Identity
             </h2>
             <p className="measure-narrow">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, a galley of type and
-              scrambled.
+              Maybe you're a small startup or maybe you have the business idea but none of the aesthetics? I can help
+              you establish an attractive and pleasant branding identity that will differentiate you from the endless
+              sea of competitors.
             </p>
           </div>
         </div>
         <div className="fl w-100 w-50-ns pa2">
-        <img alt="Ui Ux Design by sofia moraes" src={Placeholder} className={styles.profile} />
+          <img alt="Ui Ux Design by sofia moraes" src={Placeholder} className={styles.profile} />
         </div>
       </div>
     </div>

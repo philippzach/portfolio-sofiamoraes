@@ -60,7 +60,7 @@ const Logo = () => (
           />
         </svg>
       </a>
-      <a href="https://pinterest.com/elacaiberry" target="_blank" rel="noopener noreferrer">
+      <a href="https://pinterest.com/sofimoraessm" target="_blank" rel="noopener noreferrer">
         <svg version="1.1" id="Layer_1" x="0px" y="0px" width="20.119px" height="20.118px" viewBox="0 0 40.119 40.118">
           <path
             d="M20.06,3.435c-9.182,0-16.625,7.443-16.625,16.625c0,9.181,7.443,16.624,16.625,16.624S36.685,29.24,36.685,20.06

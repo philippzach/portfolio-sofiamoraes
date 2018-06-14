@@ -10,9 +10,21 @@
         padding-right: 3.8rem;
     }
 }
+.containersm {
+    @media (min-width: 550px){
+    margin: 0 auto;
+    max-width: 40rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+}
+
 p {
     line-height: 2rem;
 }
+
+//Float 50% - Marign Auto
+
 .floatright {
     @media (max-width: 650px) {
         width: 100%;
@@ -22,15 +34,16 @@ p {
     width: 50%;
     margin: auto 50%;
 }
-.purplebg {
-    background-color: rgb(37,7,42);
-}
-.acailogo {
-    padding: 2rem;
-    @media (min-width: 1050px) {
-        padding: 5rem;
+
+.floatleft {
+    @media (max-width: 650px) {
+        width: 100%;
+    margin: auto;
     }
+    width: 50%;
 }
+
+// Flexbox 1/2 Containers
 
 section.content {
     display: flex;
@@ -51,9 +64,29 @@ section.content > div.right {
     margin: 10px;
     
 }
-.text {
-    display: flex;
-    justify-content: center;
+
+//2 Colum Layout 48% - 2% Margin
+
+.divleft {
+    display: block;
+    width: 48%;
+    float: left;
+    //height: 100%;
+    margin: 0 2% 10px 0;
+    @media (max-width: 650px) {
+        width: 100%
+    }
+}
+
+.divright {
+    display: block;
+    width: 48%;
+    float: right;
+    //height: 100%;
+    margin: 0 0 10px 2%;
+    @media (max-width: 650px) {
+        width: 100%
+    }
 }
 
 .section-title {
@@ -141,6 +174,43 @@ div.left:hover img, div.right:hover img {
     transform: scale(.98)
     }
 }
+
+.purplebg {
+    background-color: rgb(37,7,42);
+}
+.acailogo {
+    padding: 2rem;
+    @media (min-width: 1050px) {
+        padding: 5rem;
+    }
+}
+
+//HEADINGS
+
+.heading {
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.text {
+    font-weight: 200;
+}
+
+.h3text {
+    line-height: 2rem;
+}
+
+//Horizontal Seperation Line
+
+.horizontalline {
+        border-top: 1px solid #8c8b8b;
+}
+
+/*.text {
+    display: flex;
+    justify-content: center;
+}*/
+
 /*
 .flexboxcontainer {
     display: flex;

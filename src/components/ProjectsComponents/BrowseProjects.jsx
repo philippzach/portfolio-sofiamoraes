@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import styles from './Project.module.scss';
 import stylesp from '../../components/Home/Projects/Projectitem.jsx/Projectitem.module.scss';
 import Acai from '../Home/Projects/pics/acai3.png';
@@ -8,8 +9,6 @@ import laBalm from '../../../Design Elements/Home/labalm.jpg';
 import Media from '../../../Design Elements/Home/turquoisemedia.jpg';
 import Nomad from '../../../Design Elements/Home/nomadyoga.jpg';
 import Mandalita from '../../../Design Elements/Home/mandalita.svg';
-import Link from 'gatsby-link';
-import Button1 from '../Buttons/Button1/Button1';
 
 const ElAcai = {
   id: 1,
@@ -102,7 +101,7 @@ class Random extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
+   handleClick() {
     this.setState({
       link1: a[5].link,
       name1: a[5].name,
@@ -114,17 +113,11 @@ class Random extends React.Component {
       keyword2: a[6].keyword,
       randomLink: a[3].link,
     });
-  }
+  } 
 
   render() {
     return (
       <div className={styles.container}>
-        <div>
-          <h2 style={{ marginTop: '2.5em', marginBottom: '1em', marginLeft: '1em' }}>Browse more projects</h2>
-        </div>
-        <div style={{ textAlign: 'right', marginRight: '2em' }}>
-          <Button1 name="next Project" link={this.state.randomLink} onClick={this.handleClick} />
-        </div>
         <section className={styles.content} style={{ textAlign: 'center', marginTop: '4em', marginBottom: '5em' }}>
           <div className={styles.left}>
             <Link to={this.state.link1} onClick={this.handleClick}>
