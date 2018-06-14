@@ -14,6 +14,13 @@ module.exports = {
     'gatsby-plugin-react-next',
     'gatsby-plugin-react-helmet',
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 916372,
+        sv: 6
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'projects',
