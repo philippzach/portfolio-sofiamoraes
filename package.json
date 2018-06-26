@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-portfolio-emma",
-  "description": "Gatsby Starter Portfolio Emma",
+  "name": "gatsby-portfolio-sofia",
+  "description": "Gatsby Portfolio Sofia Moraes",
   "version": "1.0.0",
   "author": "Philipp Zach dev@philippzach.com (https://www.sofiamoraes.com)",
   "repository": {
-    "url": "https://github.com/LeKoArts/gatsby-starter-portfolio-emma",
+    "url": "https://sofiamoraes.com",
     "type": "git"
   },
   "dependencies": {
@@ -53,9 +53,9 @@
   },
   "keywords": [
     "gatsby",
-    "lekoarts",
+    "philippzach",
     "portfolio",
-    "starter",
+    "sofiamoraes",
     "gatsby-starter"
   ],
   "license": "MIT",
