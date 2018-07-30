@@ -27,7 +27,7 @@ const Projects = () => (
         <ul className={[styles.layout, styles.layoutleft].join(' ')}>
           <li className={styles.listitem}>
             <Link to="/labalm">
-              <Fade bottom duration={2500} delay={2000} >
+              <Fade bottom duration={2500}  >
                 <Projectitem name="LA Balm" atr="Branding, Graphics, Marketing" img={laBalm} />
               </Fade>
             </Link>
@@ -35,14 +35,14 @@ const Projects = () => (
 
           <li className={styles.listitem}>
             <Link to="/turquoisemedia">
-              <Fade bottom duration={2500} delay={3000}>
+              <Fade bottom duration={2500} >
                 <Projectitem name="Turquoise Media" atr="UI/UX, Graphics" img={Media} />
               </Fade>
             </Link>
           </li>
           <li className={styles.listitem}>
             <Link to="/nomadyoga">
-              <Fade bottom duration={2500} delay={4000}>
+              <Fade bottom duration={2500} >
                 <Projectitem name="Nomad Yoga" atr="UI/UX, Graphics, Mobile Design" img={Nomad} />
               </Fade>
             </Link>

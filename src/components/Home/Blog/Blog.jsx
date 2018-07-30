@@ -17,12 +17,12 @@ const Blog = () => (
           </div>
         </div>
         <div className={styles.posts}>
-          <Link to="/blogex1" className={styles.blogpost}>
-            <Post title="My camera gear and process" date="02. Mar 18" link="/blogex1" />
-          </Link>
-          <Link to="/blogex2" className={styles.blogpost}>
-            <Post title="Color correction in instagram times" date="18. Apr 18" link="/blogex2" />
-          </Link>
+          <a href="https://medium.com/@sofimoraes.m/physics-in-wonderland-4433e8d3da18" className={styles.blogpost}>
+            <Post title="Physics in Wonderland" date="24. July 18" link="/blogex1" />
+          </a>
+          <a href="https://medium.com/@sofimoraes.m/us-vs-them-3a6ec1cef66b" className={styles.blogpost}>
+            <Post title="Us vs. Them" date="11. July 18" link="/blogex2" />
+          </a>
         </div>
       </div>
     </Container>

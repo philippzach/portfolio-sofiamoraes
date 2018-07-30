@@ -20,7 +20,7 @@ export default class Cards extends React.Component {
 
   componentDidMount() {
     stripeHandler = StripeCheckout.configure({
-      key: 'pk_test_llM7Ft0pbTy2y8BROIJ8RuWy',
+      key: 'pk_live_aZDp5S060sZRhNAJDAojDVXc',
       locale: 'auto',
     });
   }

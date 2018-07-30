@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Random.module.scss';
 import Placeholder from './placeholdersquare.png';
+import Link from 'gatsby-link';
 import Acai from '../../../../Design Elements/Home/elacaieurope.jpg';
 import laBalm from '../../../../Design Elements/Home/labalm.jpg';
 import Quantum from '../../../../Design Elements/Home/quantum.jpg';
@@ -18,17 +19,17 @@ const Random = () => (
       <div className={styles.secondarycontainer}>
         <div className={styles.container1}>
           <h2>
-            <b>Hi, I'm Sofia </b> - a graphic and experience designer based in
+            <b>Hi, I'm Sofia </b> - a graphic & visual designer based in
             {' '}
             <span>
             <Typist className={styles.Typist} startDelay={2000} avgTypingDelay={150} cursor={{ show: false }}>
             <span><b>Hawaii</b></span>
             <Typist.Backspace count={6} delay={1500}/>
-            <span><b>Bali</b></span>
-            <Typist.Backspace count={4} delay={1500}/>
             <span><b>Austria</b></span>
             <Typist.Backspace count={7} delay={1500}/>
-            <span><b>Venezuela at the moment</b></span>
+            <span><b>Venezuela</b></span>
+            <Typist.Backspace count={9} delay={1500}/>
+            <span><b>Bali at the moment</b></span>
             </Typist>
             </span>
             , I enjoy creating beautiful solutions.
@@ -43,7 +44,7 @@ const Random = () => (
           </div>
           <div className={styles.project}>
             <div className={styles.pulsingdiv}>
-            <img className={styles.projectimg} alt="placeholder" src={Acai} />
+            <Link to="/elacaieurope"><img className={styles.projectimg} alt="placeholder" src={Acai} /> </Link>
             <img className={styles.projectimg} alt="placeholder" src={laBalm} />
             <img className={styles.projectimg} alt="placeholder" src={Quantum} />
             <img className={styles.projectimg} alt="placeholder" src={Media} />
