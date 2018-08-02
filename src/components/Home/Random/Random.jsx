@@ -8,7 +8,6 @@ import Quantum from '../../../../Design Elements/Home/quantum.jpg';
 import Media from '../../../../Design Elements/Home/turquoisemedia.jpg';
 import CampBay from '../../../../Design Elements/Home/campbaylodge.jpg';
 import Nomad from '../../../../Design Elements/Home/nomadyoga.jpg';
-import Mandalita from '../../../../Design Elements/Home/mandalita1.svg';
 import Button from '../../Buttons/Button2/Button2';
 import Typist from 'react-typist';
 
@@ -19,7 +18,7 @@ const Random = () => (
       <div className={styles.secondarycontainer}>
         <div className={styles.container1}>
           <h2>
-            <b>Hi, I'm Sofia </b> - a graphic & visual designer based in
+            <b>Hi, I'm Sofia </b> - a visual designer based in
             {' '}
             <span>
             <Typist className={styles.Typist} startDelay={2000} avgTypingDelay={150} cursor={{ show: false }}>
@@ -50,7 +49,6 @@ const Random = () => (
             <img className={styles.projectimg} alt="placeholder" src={Media} />
             <img className={styles.projectimg} alt="placeholder" src={CampBay} />
             <img className={styles.projectimg} alt="placeholder" src={Nomad} />
-            <img className={styles.projectimg} alt="placeholder" src={Mandalita} />
             </div>
           </div>
         </div>

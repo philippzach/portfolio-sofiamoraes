@@ -52,15 +52,15 @@ const Yoga = {
   img: Nomad,
   link: '/nomadyoga',
 };
-const Manda = {
+/*const Manda = {
   id: 7,
   name: 'Mandalita',
   keyword: 'Branding, Graphics',
   img: Mandalita,
   link: '/mandalita',
-};
+};*/
 
-const ProjectArray = [Manda, Yoga, Turquoise, laBalmProject, Quantum, CampBay, ElAcai];
+const ProjectArray = [Yoga, Turquoise, laBalmProject, Quantum, CampBay, ElAcai];
 
 function shuffle(array) {
   let currentIndex = array.length,

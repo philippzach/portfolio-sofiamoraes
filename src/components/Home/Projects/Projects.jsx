@@ -9,7 +9,7 @@ import Quantum from '../../../../Design Elements/Home/quantum.jpg';
 import Media from '../../../../Design Elements/Home/turquoisemedia.jpg';
 import CampBay from '../../../../Design Elements/Home/campbaylodge.jpg';
 import Nomad from '../../../../Design Elements/Home/nomadyoga.jpg';
-import Mandalita from '../../../../Design Elements/Home/mandalita1.svg';
+//import Mandalita from '../../../../Design Elements/Home/mandalita1.svg';
 
 
 const Projects = () => (
@@ -72,13 +72,13 @@ const Projects = () => (
               </Fade>
             </Link>
           </li>
-          <li className={styles.listitem}>
+          { /*} <li className={styles.listitem}>
             <Link to="/mandalita">
               <Fade bottom duration={2500}>
                 <Projectitem name="Mandalita" atr="Branding, Graphics" img={Mandalita} />
               </Fade>
             </Link>
-          </li>
+          </li> { */ }
         </ul>
       </div>
     </div>
