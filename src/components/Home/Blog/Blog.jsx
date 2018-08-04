@@ -17,6 +17,9 @@ const Blog = () => (
           </div>
         </div>
         <div className={styles.posts}>
+        <a href="https://medium.com/@sofimoraes.m/freedom-of-being-f428e8944728" className={styles.blogpost}>
+            <Post title="Freedom of Being" date="04. August 18" link="/blogex2" />
+          </a>
           <a href="https://medium.com/@sofimoraes.m/physics-in-wonderland-4433e8d3da18" className={styles.blogpost}>
             <Post title="Physics in Wonderland" date="24. July 18" link="/blogex1" />
           </a>
