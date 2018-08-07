@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Post.module.scss';
-import Button from '../../../Buttons/Button1/Button1';
+import Button from '../../../Buttons/ButtonOutgoing2/Button1';
 
 const Post = props => (
   <div className={styles.blogpost}>
