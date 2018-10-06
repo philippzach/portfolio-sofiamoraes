@@ -5,8 +5,8 @@ const Contact = () => (
     <h3 className="pl4 pt5" style={{ lineHeight: '2rem' }}>
       Do you have a bigger project in mind? Like Web or App Development, Branding or Advertisement? Email me about your
       project >{' '}
-      <a href="mailto:hi@sofiamoraes.com" className="b">
-        hi@sofiamoraes.com
+      <a href="mailto:sofimoraes.m@gmail.com" className="b">
+        Let's connect 💌
       </a>
     </h3>
   </div>
